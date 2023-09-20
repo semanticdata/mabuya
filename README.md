@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/github/repo-size/semanticdata/zola-tale" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/zola-tale" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/zola-tale" />
-  <img src="https://img.shields.io/website/https/semanticdata/github.io/zola-tale.svg" />
+  <img src="https://img.shields.io/website/https/semanticdata.github.io/zola-tale.svg" />
 </p>
 
 # Zola Tale
@@ -28,7 +28,7 @@ about the kinds of contributions we're looking for.
 
 ## Acknowledgements
 
-* Tale-Zola is a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale).
+Tale-Zola is a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale).
 
 ## License
 
