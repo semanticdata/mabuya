@@ -1,40 +1,28 @@
-+++
-title = "Hello World"
-date = 2021-05-01T11:11:00+00:00
+---
+title: "Hello World"
+date: 2023-03-18
+description: "This must be the fourth time I have started a blog. I haven't been very successful at being a consistent content producer. That changes today."
+taxonomies:
+  tags:
+    - inspiration
+---
 
-[taxonomies]
-tags = ["Rust", "Sample"]
+This must be the fourth time I have started a blog. I haven't been very successful at being a consistent content producer. That changes today. I made a promise I can't break. I have made a real commitment to someone in my life, who I rather not disappoint.
 
-[extra]
-author = "Rustaceans"
-+++
+The past few years have been difficult for me. I am privileged enough to have access to the resources I do. It is a scary thought; wondering where I would be without therapy and all the other resources I'm able to use.
 
-This is the source code of the traditional *Hello World* program.
-<!-- more -->
+Since June 2022, I have been pushing myself to journal more often. Note-taking has changed the way I digest information. I've experienced the "productivity app rodeo". Jumping from productivity app to productivity app. Never settling, never producing content, just focused on the "workflow". I think I'm past that. It's time I sit down and type.
 
-```rust
-// This is a comment, and is ignored by the compiler
+I can't go on without mentioning some inspiring people I have had the pleasure of coming across. When it comes to blogging and just being great overall, I highly recommend following the likes of:
 
-// This is the main function
-fn main() {
-    // Statements here are executed when the compiled binary is called
+- [Andy Bell](https://andy-bell.co.uk/)
+- [Derek Sivers](https://sive.rs/)
+- [Drew DeVault](https://drewdevault.com/)
+- [Eric Bower](https://erock.prose.sh/)
+- [Herman Martinus](https://herman.bearblog.dev/)
 
-    // Print text to the console
-    println!("Hello World!");
-}
-```
+Hope you found reading this worthwhile. If you take anything from this post, let it be:
 
-`println!` is a macro that prints text to the console.
+> “Better done than perfect.”
 
-A binary can be generated using the Rust compiler: `rustc`.
-
-```bash
-$ rustc hello.rs
-```
-
-`rustc` will produce a `hello` binary that can be executed.
-
-```bash
-$ ./hello
-Hello World!
-```
+Take care, and maybe I'll see you in the next post.

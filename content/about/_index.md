@@ -1,18 +1,17 @@
-+++
-title = "About"
-template = "about/section.html"
-+++
+---
+title: About
+template: about/section.html
+---
 
-Tala-Zola is a minimal [Zola](https://www.getzola.org) theme helping you to
-build a light and seo-ready blog, and you can customise any information of the
-blog without having to modify the codes of the template. Tala-Zola is a port of
-the Jekyll theme [Tale](https://github.com/chesterhow/tale).
+Hello there, it's good to see you. I'm Miguel—hobby developer, music enjoyer, and public infrastructure enthusiast. I live in Minnesota, also known as the "Land of 10,000 Lakes" for having over 14,000 bodies of fresh water.
 
-Tale-Zola is seo-ready and it suports the open graph, Twitter cards and JSON-LD.
-All you need to do is just write an article for your blog.
+I think a lot, work a lot, have existential crises, and know just enough about making websites to make me dangerous. I enjoy writing, reading, coding, listening to music, and love having a problem to solve.
 
-## Contribute
+**As of September 2023, I am…**
 
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/aaranxu/tale-zola).
+… tending to my [digital garden](https://forgetful.dev/).  
+… making simple browser [extensions](https://addons.mozilla.org/en-US/firefox/user/17772574/).  
+… collecting bookmarks with [Raindrop](https://raindrop.io/SemanticData).  
+… slowly teaching myself game development with [LÖVE](https://love2d.org/).
 
-Thanks for reading!
+Thank you for stopping by. Please tell your dog I said Hi! 🐶

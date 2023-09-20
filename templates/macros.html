@@ -1,31 +1,29 @@
 {%- macro time() -%}
-  {%- if config.extra.footer.start_year -%}
-  	{%- set start_year = config.extra.footer.start_year -%}
-  {%- else -%}
-  	{%- set start_year = now() | date(format="%Y") -%}
-  {%- endif -%}
-  
-  {%- if config.extra.footer.end_year -%}
-  	{%- set end_year = config.extra.footer.end_year -%}
-  {%- else -%}
-  	{%- set end_year = now() | date(format="%Y") -%}
-  {%- endif -%}
-  
-  {%- if start_year == end_year -%}
-  	{%- set year = start_year -%}
-  {%- else -%}
-  	{%- set year = start_year ~ "-" ~ end_year -%}
-  {%- endif -%}
+{%- if config.extra.footer.start_year -%}
+{%- set start_year = config.extra.footer.start_year -%}
+{%- else -%}
+{%- set start_year = now() | date(format="%Y") -%}
+{%- endif -%}
 
-  <time datetime="{{ now() }}">{{ year }}</time>
+{%- if config.extra.footer.end_year -%}
+{%- set end_year = config.extra.footer.end_year -%}
+{%- else -%}
+{%- set end_year = now() | date(format="%Y") -%}
+{%- endif -%}
+
+{%- if start_year == end_year -%}
+{%- set year = start_year -%}
+{%- else -%}
+{%- set year = start_year ~ "-" ~ end_year -%}
+{%- endif -%}
+
+<time datetime="{{ now() }}">{{ year }}</time>
 {%- endmacro -%}
-
-
 
 {% macro page(page) -%}
 <a href="{{ page.permalink | safe }}" class="catalogue-item">
   <div>
-    <span class="catalogue-pinned">{{ config.extra.expressions.pinned | default(value="Pinned")}} &middot;</span>
+    <span class="catalogue-pinned">{{ config.extra.expressions.pinned | default(value="")}}</span>
     <time datetime="{{ page.date }}" class="catalogue-time">{{ page.date | date(format=config.extra.timeformat |
       default(value="%B %e, %Y")) }}</time>
     <h1 class="catalogue-title">{{ page.title }}</h1>
@@ -41,19 +39,17 @@
 </a>
 {%- endmacro %}
 
-
-
 {% macro seo(
-  title="",
-  og_title="",
-  author="",
-  description="",
-  site_url="",
-  image="",
-  image_height="",
-  image_width="",
-  web_type="WebSite"
-  ) -%}
+title="",
+og_title="",
+author="",
+description="",
+site_url="",
+image="",
+image_height="",
+image_width="",
+web_type="WebSite"
+) -%}
 {% if title %}
 <title>{{ title }}</title>
 {% endif %}
@@ -66,7 +62,7 @@
 <meta name="author" content="{{ author }}">
 {% endif %}
 
-<meta property="og:locale" content="{{ config.extra.seo.og_locale | default(value="en-US") }}">
+<meta property="og:locale" content="{{ config.extra.seo.og_locale | default(value=" en-US") }}">
 
 {% if description %}
 <meta name="description" content="{{ description }}">
@@ -83,84 +79,84 @@
 {% endif %}
 
 {% if image %}
-  <meta property="og:image" content="{{ get_url(path=image) | safe }}">
-  {% if image_height -%}
-    <meta property="og:image:height" content="{{ image_height }}">
-  {%- endif %}
-  {% if image_width -%}
-    <meta property="og:image:width" content="{{ image_width }}">
-  {%- endif %}
+<meta property="og:image" content="{{ get_url(path=image) | safe }}">
+{% if image_height -%}
+<meta property="og:image:height" content="{{ image_height }}">
+{%- endif %}
+{% if image_width -%}
+<meta property="og:image:width" content="{{ image_width }}">
+{%- endif %}
 {% endif %}
 
 {% if page.date %}
-  <meta property="og:type" content="article" />
-  <meta property="article:published_time" content="{{ page.date | date(format="%+") }}">
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="{{ page.date | date(format=" %+") }}">
 {% endif %}
 
 {% if page.earlier %}
-  <link rel="prev" href="{{ page.earlier.permalink | safe }}">
+<link rel="prev" href="{{ page.earlier.permalink | safe }}">
 {% elif paginator.previous %}
-  <link rel="prev" href="{{ paginator.previous | safe }}">
+<link rel="prev" href="{{ paginator.previous | safe }}">
 {% endif %}
 
 {% if ppage.later %}
-  <link rel="next" href="{{ page.later.permalink | safe }}">
+<link rel="next" href="{{ page.later.permalink | safe }}">
 {% elif paginator.next %}
-  <link rel="next" href="{{ paginator.next | safe }}">
+<link rel="next" href="{{ paginator.next | safe }}">
 {% endif %}
 
 {% if image %}
-  <meta name="twitter:card" content="summary_large_image"">
-  <meta property="twitter:image" content="{{ get_url(path=image) | safe }}">
+<meta name="twitter:card" content="summary_large_image"">
+  <meta property=" twitter:image" content="{{ get_url(path=image) | safe }}">
 {% else %}
-  <meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary">
 {% endif %}
 
 {% if og_title %}
-  <meta property="twitter:title" content="{{ og_title }}">
+<meta property="twitter:title" content="{{ og_title }}">
 {% endif %}
 
 {% if config.extra.seo.twitter.site %}
-  <meta name="twitter:site" content="@{{ config.extra.seo.twitter.site }}">
-  {% if config.extra.seo.twitter_creator %}
-    <meta name="twitter:creator" content="@{{  config.extra.seo.twitter.creator }}">
-  {% endif %}
+<meta name="twitter:site" content="@{{ config.extra.seo.twitter.site }}">
+{% if config.extra.seo.twitter_creator %}
+<meta name="twitter:creator" content="@{{  config.extra.seo.twitter.creator }}">
+{% endif %}
 {% endif %}
 
 {% if config.extra.seo.facebook %}
-  {% if config.extra.seo.facebook.admins %}
-    <meta property="fb:admins" content="{{ config.extra.seo.facebook.admins }}" />
-  {% endif %}
+{% if config.extra.seo.facebook.admins %}
+<meta property="fb:admins" content="{{ config.extra.seo.facebook.admins }}" />
+{% endif %}
 
-  {% if config.extra.seo.facebook.publisher %}
-    <meta property="article:publisher" content="{{ config.extra.seo.facebook.publisher }}" />
-  {% endif %}
+{% if config.extra.seo.facebook.publisher %}
+<meta property="article:publisher" content="{{ config.extra.seo.facebook.publisher }}" />
+{% endif %}
 
-  {% if config.extra.seo.facebook.app_id %}
-    <meta property="fb:app_id" content="{{ config.extra.seo.facebook.app_id }}" />
-  {% endif %}
+{% if config.extra.seo.facebook.app_id %}
+<meta property="fb:app_id" content="{{ config.extra.seo.facebook.app_id }}" />
+{% endif %}
 {% endif %}
 
 {% if config.extra.seo.webmaster %}
-  {% if config.extra.seo.webmaster.google %}
-    <meta name="google-site-verification" content="{{ config.extra.seo.webmaster.google }}" />
-  {% endif %}
+{% if config.extra.seo.webmaster.google %}
+<meta name="google-site-verification" content="{{ config.extra.seo.webmaster.google }}" />
+{% endif %}
 
-  {% if config.extra.seo.webmaster.bing %}
-    <meta name="msvalidate.01" content="{{ config.extra.seo.webmaster.bing }}" />
-  {% endif %}
+{% if config.extra.seo.webmaster.bing %}
+<meta name="msvalidate.01" content="{{ config.extra.seo.webmaster.bing }}" />
+{% endif %}
 
-  {% if config.extra.seo.webmaster.alexa %}
-    <meta name="alexaVerifyID" content="{{ config.extra.seo.webmaster.alexa }}" />
-  {% endif %}
+{% if config.extra.seo.webmaster.alexa %}
+<meta name="alexaVerifyID" content="{{ config.extra.seo.webmaster.alexa }}" />
+{% endif %}
 
-  {% if config.extra.seo.webmaster.yandex %}
-    <meta name="yandex-verification" content="{{ config.extra.seo.webmaster.yandex }}" />
-  {% endif %}
+{% if config.extra.seo.webmaster.yandex %}
+<meta name="yandex-verification" content="{{ config.extra.seo.webmaster.yandex }}" />
+{% endif %}
 
-  {% if config.extra.seo.webmaster.baidu %}
-    <meta name="baidu-site-verification" content="{{ config.extra.seo.webmaster.baidu }}" />
-  {% endif %}
+{% if config.extra.seo.webmaster.baidu %}
+<meta name="baidu-site-verification" content="{{ config.extra.seo.webmaster.baidu }}" />
+{% endif %}
 {% endif %}
 
 <script type="application/ld+json">
