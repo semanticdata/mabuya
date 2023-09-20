@@ -65,7 +65,7 @@
   	{% if page.higher -%}
   		<a href="{{ page.higher.permalink | safe }}" class="left arrow">&#8592;</a>
   	{%- endif %}
-		<a href="#" class="top">Top</a>
+		<a href="#" class="top">{{ config.extra.expressions.top | default(value="Top") }}</a>
 		{% if page.lower -%}
 			<a href="{{ page.lower.permalink | safe }}" class="right arrow">&#8594;</a>
 		{%- endif %}
