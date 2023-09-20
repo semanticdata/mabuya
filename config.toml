@@ -1,6 +1,6 @@
 base_url = "https://semanticdata.github.io/zola-tale/"
-title = "Tale"
-description = "Tale-Zola is a minimal Zola theme helping you to build a light blog, and you can customise any information of the blog without having to modify the codes of the template."
+title = "Miguel Pimentel"
+description = "I'm Miguel—hobby developer, music enjoyer, and public infrastructure enthusiast."
 
 compile_sass = true
 generate_feed = true

@@ -4,7 +4,8 @@ date: 2023-03-18
 description: "This must be the fourth time I have started a blog. I haven't been very successful at being a consistent content producer. That changes today."
 taxonomies:
   tags:
-    - inspiration
+    - blogging
+    # - inspiration
 ---
 
 This must be the fourth time I have started a blog. I haven't been very successful at being a consistent content producer. That changes today. I made a promise I can't break. I have made a real commitment to someone in my life, who I rather not disappoint.

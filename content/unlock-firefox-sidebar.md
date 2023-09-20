@@ -18,21 +18,21 @@ taxonomies:
 1. In a new tab, navigate to `about:support`.
 2. Under `Application Basics`, find `Profile Folder`.
 3. Locate and click the `Open Folder` button next to it. It will be next to an address similar to:  
-`%appdata%\Mozilla\Firefox\Profiles\{profile-id}.default` [^1]
+`%appdata%\Mozilla\Firefox\Profiles\{profile-id}.default`[^1]
 4. Inside your Firefox Profile Folder, create a new folder named: `chrome`.
 5. Inside the newly created chrome folder, create a new file named: `userChrome.css`.
-6. Copy the following code [^2], paste as content and save: [^3]
+6. Copy the following code[^2], paste as content and save:
 
 ```css
+/* You may change the units to any length you find more convenient. */
 #sidebar-box {
   max-width: 40% !important;
   min-width: 300px !important;
 }
 ```
 
-7. Finally, in a new tab, navigate to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets`, and change its value to `true`.
-8. Restart Firefox and test it out!
+1. Finally, in a new tab, navigate to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets`, and change its value to `true`.
+2. Restart Firefox and test it out!
 
-[^1]: `%appdata%` is equivalent to `C:\Users\{username}\AppData\Roaming`
+[^1]: `%appdata%` is equivalent to `C:\Users\{username}\AppData\Roaming`  
 [^2]: After Firefox 107, `#sidebar` was deprecated, and `#sidebar-box` was introduced.
-[^3]: You may change the units to any length you find more convenient.

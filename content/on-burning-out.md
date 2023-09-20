@@ -5,7 +5,8 @@ description: "My life took a sharp turn early last year. I am a very private per
 taxonomies:
   tags:
     - burnout
-    - firefighting
+    - mental-health
+    # - firefighting
 ---
 
 My life took a sharp turn early last year. I am a very private person. You will not find me sharing my personal life on social media. That said, these last 18 months have changed me profoundly, and I feel like I need to write these feelings down. This post's threshold of success is helping one other person navigate difficult times.
