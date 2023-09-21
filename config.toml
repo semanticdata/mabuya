@@ -63,7 +63,7 @@ url = "about"
 [extra.footer]
 start_year = "2023" # start year of the site
 end_year = "2023" # end year of the site
-info = "Made with <a href=\"https://www.getzola.org\">Zola</a> with <a href=\"https://github.com/aaranxu/tale-zola\">Tale</a>."
+info = "Made with <a href=\"https://www.getzola.org\">Zola</a>. Themed with <a href=\"https://github.com/aaranxu/tale-zola\">Tale</a>."
 
 [extra.expressions]
 home = "Home" # The homepage's name
