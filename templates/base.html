@@ -47,23 +47,26 @@
       </a>
       <ul>
         {% if config.extra.menu %}
-          {% for menu in config.extra.menu %}
-            <li><a href="{{ get_url(path=menu.url) | safe }}">{{ menu.name }}</a></li>
-          {% endfor %}
+        {% for menu in config.extra.menu %}
+        <li><a href="{{ get_url(path=menu.url) | safe }}">{{ menu.name }}</a></li>
+        {% endfor %}
         {% else %}
-          <li><a href="{{ config.base_url | safe }}">Posts</a></li>
-          <li><a href="{{ get_url(path="tags") | safe }}">Tags</a></li>
-          <li><a href="{{ get_url(path="about") | safe }}">About</a></li>
+        <li><a href="{{ config.base_url | safe }}">Posts</a></li>
+        <li><a href="{{ get_url(path="tags") | safe }}">Tags</a></li>
+        <li><a href="{{ get_url(path="about") | safe }}">About</a></li>
         {% endif %}
+        <li>
+        {% include "partials/darkmode.html" %}
+      </li>
       </ul>
     </div>
   </nav>
   {% endblock header %}
-
+  
   <main>
     {% block content %}{% endblock content %}
   </main>
-
+  
   {% block footer %}
   <footer>
     <span>
@@ -71,10 +74,11 @@
       &copy; {{ macros::time() }} {{ config.extra.author | default(value="Aaran Xu")}}. {{ config.extra.footer.info | default(value="Made with Zola with Tale-Zola theme.") | safe }}
       {%- else -%}
         &copy; 2021 Aaran Xu. Made with <a href="https://www.getzola.org">Zola</a> using the <a
-          href="https://github.com/aaranxu/tale-zola">Tale-Zola</a> theme.
-      {%- endif -%}
-    </span>
-  </footer>
+        href="https://github.com/aaranxu/tale-zola">Tale-Zola</a> theme.
+        {%- endif -%}
+      </span>
+      
+    </footer>
   {% endblock footer %}
 </body>
 </html>

@@ -26,9 +26,11 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 We'd love your help! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) to learn
 about the kinds of contributions we're looking for.
 
-## Acknowledgements
+## Acknowledgements and Attributions
 
 Tale-Zola is a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale).
+
+The icons used are part of [UXWing](https://uxwing.com/license/)'s collection.
 
 ## License
 
