@@ -1,26 +1,34 @@
-// Colors
-$default-color: #555 !default;
-$default-shade: #353535 !default;
-$default-tint: #aaa !default;
-$grey-1: #979797 !default;
-$grey-2: #e5e5e5 !default;
-$grey-3: #f9f9f9 !default;
-$white: #fff !default;
-$blue: #4a9ae1 !default;
-$shadow-color: rgba(0, 0, 0, 0.2) !default;
-$code-color: #bf616a !default;
+:root {
+  --default-color: #555;
+  --default-shade: #353535;
+  --default-tint: #aaa;
+  --grey-1: #979797;
+  --grey-2: #e5e5e5;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --code-color: #bf616a;
+  --background-color: #fff;
+}
 
-// Dark mode Colors
-$dark-default-color: #555 !default;
-$dark-default-shade: #353535 !default;
-$dark-default-tint: #aaa !default;
-$dark-grey-1: #979797 !default;
-$dark-grey-2: #e5e5e5 !default;
-$dark-grey-3: #f9f9f9 !default;
-$dark-white: #fff !default;
-$dark-blue: #4a9ae1 !default;
-$dark-shadow-color: rgba(0, 0, 0, 0.2) !default;
-$dark-code-color: #bf616a !default;
+[saved-theme="dark"] {
+  --default-color: #c7c7c7;
+  --default-shade: #dddddd;
+  --default-tint: #727272;
+  --grey-1: #747474;
+  --grey-2: #222222;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --code-color: #bf616a;
+  --background-color: #000;
+}
+
+// Colors
+$default-color: var(--default-color);
+$default-shade: var(--default-shade);
+$default-tint: var(--default-tint);
+$grey-1: var(--grey-1);
+$grey-2: var(--grey-2);
+$shadow-color: var(--shadow-color);
+$code-color: var(--code-color);
+$background-color: var(--background-color);
 
 // Fonts
 $serif-primary: "Libre Baskerville", "Times New Roman", Times,

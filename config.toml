@@ -18,34 +18,11 @@ highlight_theme = "base16-ocean-light"
 author = "Miguel Pimentel"
 github = "https://github.com/semanticdata"
 email = "contact@miguelpimentel.do"
-timeformat = "%B %e, %Y"                   # e.g. June 14, 2021
+timeformat = "%B %e, %Y" # e.g. June 14, 2021
 katex = false
-google_analytics = ""
 disqus = false
-disqus_id = ""
-
-[extra.seo]
-image = "tale.png"
-image_height = 0
-image_width = 0
-og_locale = "en_US"
-
-# [extra.seo.twitter]
-# site = "aaranxu"
-# creator = "aaranxu"
-
-# [extra.seo.facebook]
-# admins = "ichunyun"
-# publisher = "ichunyun"
-# app_id = ""
-
-# Webmaster verifications' tokens
-[extra.seo.webmaster]
-google = ""
-bing = ""
-alexa = ""
-yandex = ""
-baidu = ""
+# disqus_id = ""
+# google_analytics = ""
 
 # Menu items
 [[extra.menu]]
@@ -63,7 +40,7 @@ url = "about"
 [extra.footer]
 start_year = "2023" # start year of the site
 end_year = "2023" # end year of the site
-info = "Made with <a href=\"https://www.getzola.org\">Zola</a>. Themed with <a href=\"https://github.com/aaranxu/tale-zola\">Tale</a>."
+info = "Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/aaranxu/tale-zola\">Tale</a>."
 
 [extra.expressions]
 home = "Home" # The homepage's name
@@ -77,4 +54,27 @@ p404_info = "Oops! We can't seem to find the page you are looking for."
 p404_back_home_start = "Let's"
 p404_back_home_with_link = "head back home"
 p404_back_home_end = "."
-# pinned = "Pinned"          # On the header of the post list
+# pinned = "Pinned" # On the header of the post list
+
+[extra.seo]
+# image = "tale.png"
+# image_height = 0
+# image_width = 0
+og_locale = "en_US"
+
+# [extra.seo.twitter]
+# site = "aaranxu"
+# creator = "aaranxu"
+
+# [extra.seo.facebook]
+# admins = "ichunyun"
+# publisher = "ichunyun"
+# app_id = ""
+
+# Webmaster verifications' tokens
+# [extra.seo.webmaster]
+# google = ""
+# bing = ""
+# alexa = ""
+# yandex = ""
+# baidu = ""
