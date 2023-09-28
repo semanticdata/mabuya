@@ -39,6 +39,7 @@
 </head>
 
 <body>
+  {% include "partials/darkmode-test.html" %}
   {% block header %}
   <nav class="nav">
     <div class="nav-container">
@@ -57,14 +58,14 @@
         {% endif %}
         <li>
 
-        {% include "partials/darkmode.html" %}
+        <!-- {% include "partials/darkmode.html" %} -->
 
       </li>
       </ul>
     </div>
   </nav>
   {% endblock header %}
-  
+
   <main>
     {% block content %}{% endblock content %}
   </main>
