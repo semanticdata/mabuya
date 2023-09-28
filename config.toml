@@ -6,8 +6,7 @@ compile_sass = true
 generate_feed = true
 build_search_index = false
 taxonomies = [
-  { name = "tags", feed = true }, # each tag will have its own feed
-  # { name = "categories", feed = true }, # each tag will have its own feed
+  { name = "tags", feed = true },
 ]
 
 [markdown]
@@ -24,7 +23,6 @@ disqus = false
 # disqus_id = ""
 # google_analytics = ""
 
-# Menu items
 [[extra.menu]]
 name = "Archive"
 url = "/"
@@ -57,10 +55,10 @@ p404_back_home_end = "."
 # pinned = "Pinned" # On the header of the post list
 
 [extra.seo]
+og_locale = "en_US"
 # image = "tale.png"
 # image_height = 0
 # image_width = 0
-og_locale = "en_US"
 
 # [extra.seo.twitter]
 # site = "aaranxu"

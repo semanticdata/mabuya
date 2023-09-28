@@ -9,9 +9,9 @@ I think a lot, work a lot, have existential crises, and know just enough about m
 
 **As of September 2023, I am…**
 
-… tending to my [digital garden](https://forgetful.dev/).  
+… tending to my [digital garden](https://forgetfulnotes.com/).  
 … making simple browser [extensions](https://addons.mozilla.org/en-US/firefox/user/17772574/).  
 … collecting bookmarks with [Raindrop](https://raindrop.io/SemanticData).  
-… slowly teaching myself game development with [LÖVE](https://love2d.org/).
+… developing both a [theme](https://github.com/semanticdata/obsidian-sample-theme), and a [starter vault](https://github.com/semanticdata/obsidian-starter-vault) for [Obsidian](https://obsidian.md/).  
 
 Thank you for stopping by. Please tell your dog I said Hi! 🐶

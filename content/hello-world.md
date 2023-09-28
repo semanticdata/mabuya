@@ -5,10 +5,11 @@ description: "This must be the fourth time I have started a blog. I haven't been
 taxonomies:
   tags:
     - blogging
-    # - inspiration
 ---
 
 This must be the fourth time I have started a blog. I haven't been very successful at being a consistent content producer. That changes today. I made a promise I can't break. I have made a real commitment to someone in my life, who I rather not disappoint.
+
+<!-- more -->
 
 The past few years have been difficult for me. I am privileged enough to have access to the resources I do. It is a scary thought; wondering where I would be without therapy and all the other resources I'm able to use.
 

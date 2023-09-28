@@ -1,3 +1,8 @@
+// Justify text content on sections and index
+a div p {
+  text-align: justify;
+}
+
 .catalogue {
   &-item {
     border-bottom: 1px solid $grey-2;
