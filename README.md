@@ -14,7 +14,7 @@ Check out a live [Demo](https://semanticdata.github.io/zola-tale/) of the theme.
 
 While working on the theme, I have made a few changes. Here's a short non-conclusive list:
 
-- Refactored all stylesheets.
+- Refactored stylesheets.
 - Added Dark mode and its switch.
 - Added working GitHub Workflow.
 - New style variables file.
@@ -43,7 +43,7 @@ custom your blog, including different expressions in your speaking language.
 
 ### Custom CSS styles
 
-Just add your own styles to `sass/_custom.scss` file.
+Adding your custom css is as easy as adding your own styles to the `sass/_custom.scss` file.
 
 ## Useful Commands
 
@@ -52,25 +52,34 @@ Just add your own styles to `sass/_custom.scss` file.
 | `zola build`               | Build only                 |
 | `zola serve`               | Build and Serve            |
 
-## Current Goals
+## Lighthouse Scores
 
-### Lighthouse Scores
+Aiming for perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories. See the latest [scores](https://pagespeed.web.dev/analysis/https-semanticdata-github-io-zola-tale/0jg8x3evtr?form_factor=mobile).
 
-Aiming for perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories. Check out the [current scores](https://pagespeed.web.dev/analysis/https-semanticdata-github-io-zola-tale/0jg8x3evtr?form_factor=mobile).
-
-#### Desktop
+### Desktop
 
 - [x] Performance: 100 / 100
 - [ ] Accesibility: 93 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
 
-**Mobile**
+### Mobile
 
 - [ ] Performance: 93 / 100
 - [ ] Accesibility: 93 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
+
+## GTMetrix Scores
+
+Aiming for high scores in [GTMetrix](https://gtmetrix.com/). See the latest [performance report](https://gtmetrix.com/reports/semanticdata.github.io/uGxgzR0q/).
+
+- Performance: 100%
+- Structure: 100%
+- Total Website size: 64KB compressed, 78KB uncompressed.
+- Largest Contentful Paint:[^1] 287ms.
+- Total Blocking Time:[^2] 0ms.
+- Cumulative Layout Shift:[^3] 0.01.
 
 ## Reporting Issues
 
@@ -94,3 +103,7 @@ The icons used are part of [UXWing](https://uxwing.com/license/)'s collection.
 ## License
 
 Source code is available under [MIT](LICENSE).
+
+[^1]: For a good user experience, aim for an LCP of 1.2 seconds or less.
+[^2]: For a good user experience, aim for a TBT of 150 milliseconds or less.
+[^3]: For a good user experience, aim for a CLS score of 0.1 or less.
