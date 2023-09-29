@@ -3,6 +3,10 @@
   line-height: 1.5;
 }
 
+a {
+  color: var(--link-color);
+}
+
 html,
 body {
   color: $default-color;
