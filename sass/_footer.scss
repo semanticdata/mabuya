@@ -47,7 +47,6 @@
   .navigation-footer {
     float: none;
     position: relative;
-    bottom: 0;
   }
   .copyright {
     float: none;
@@ -61,11 +60,13 @@
     position: relative;
     ul {
       margin: 0;
+      padding-bottom: 1rem;
     }
   }
   .copyright {
     float: left;
     position: relative;
     top: 2px;
+    padding-bottom: 1rem;
   }
 }
