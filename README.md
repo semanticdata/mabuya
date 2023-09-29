@@ -16,13 +16,18 @@ Mabuya is named as such after [Mabuya hispaniolae](https://en.wikipedia.org/wiki
 
 ## Features
 
-While working on the theme, I have made a few changes. Here's a short non-conclusive list:
+While working on the theme, I have added new functionality and quality of life improvements. Here's a short non-conclusive list:
 
-- Refactored stylesheets.
-- Added Dark mode and its switch.
-- Added working GitHub Workflow.
-- New style variables file.
-- Other Quality of Life improvements.
+- Fully refactored stylesheets.
+- Added Dark mode and color scheme switch.
+- Added new footer navigation for external links.
+- Added GitHub Workflow to make deployment easier.
+- Refined page transition from desktop to mobile and viceversa.
+- Centralized custom variables. Easier to make color changes to the site.
+- Addressed PR [#7](https://github.com/aaranxu/tale-zola/pull/7).
+- Addressed (temporarily) Issue [#1](https://github.com/aaranxu/tale-zola/issues/1).
+- Addressed Issue [#4](https://github.com/aaranxu/tale-zola/issues/4).
+- And many other small improvements.
 
 ## Requirements
 
