@@ -6,11 +6,6 @@
 }
 
 .navigation-footer {
-  float: right;
-  position: relative;
-  bottom: 14px;
-  padding-right: 1rem;
-
   a {
     font-size: 0.8rem;
     color: $default-color;
@@ -62,13 +57,15 @@
 
 @media (min-width: 801px) {
   .navigation-footer {
-    padding: 0;
-    bottom: 0;
+    float: right;
+    position: relative;
+    ul {
+      margin: 0;
+    }
   }
   .copyright {
     float: left;
     position: relative;
-    // text-align: center;
-    // padding-left: 0;
+    top: 2px;
   }
 }
