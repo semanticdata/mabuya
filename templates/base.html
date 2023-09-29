@@ -39,7 +39,7 @@
 </head>
 
 <body>
-  {% include "partials/darkmode-test.html" %}
+  {% include "partials/darkmode.html" %}
   {% block header %}
   <nav class="nav">
     <div class="nav-container">
@@ -56,11 +56,6 @@
         <li><a href="{{ get_url(path="tags") | safe }}">Tags</a></li>
         <li><a href="{{ get_url(path="about") | safe }}">About</a></li>
         {% endif %}
-        <li>
-
-        <!-- {% include "partials/darkmode.html" %} -->
-
-      </li>
       </ul>
     </div>
   </nav>
@@ -72,15 +67,29 @@
   
   {% block footer %}
   <footer>
-    <span>
+
+    
+    <nav class="navigation-footer">
+    
+      <ul>
+        <li><a href="https://forgetfulnotes.com">Digital Garden</a></li>
+        <li><a href="https://github.com/semanticdata">GitHub</a></li>
+        <li><a href="https://instagram.com/miguelapv">Instagram</a></li>
+      </ul>
+    
+    </nav>
+
+    <span class="copyright">
       {%- if config.extra.footer -%}
-      &copy; {{ macros::time() }} {{ config.extra.author | default(value="Aaran Xu")}}. {{ config.extra.footer.info | default(value="Made with Zola with Tale-Zola theme.") | safe }}
+      &copy; {{ macros::time() }} {{ config.extra.author | default(value="Miguel Pimentel")}}. {{ config.extra.footer.info
+      | default(value="Powered by Zola and Tale.") | safe }}
       {%- else -%}
-        &copy; 2023 Miguel Pimentel. Powered by <a href="https://www.getzola.org">Zola</a> and <a
+      &copy; 2023 Miguel Pimentel. Powered by <a href="https://www.getzola.org">Zola</a> and <a
         href="https://github.com/aaranxu/tale-zola">Tale</a>.
-        {%- endif -%}
-      </span>
-    </footer>
+      {%- endif -%}
+    </span>
+
+  </footer>
   {% endblock footer %}
 </body>
 </html>
