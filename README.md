@@ -1,14 +1,16 @@
 <p align="right">
-  <img src="https://img.shields.io/github/languages/code-size/semanticdata/zola-tale" />
-  <img src="https://img.shields.io/github/repo-size/semanticdata/zola-tale" />
-  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/zola-tale" />
-  <img src="https://img.shields.io/github/last-commit/semanticdata/zola-tale" />
-  <img src="https://img.shields.io/website/https/semanticdata.github.io/zola-tale.svg" />
+  <img src="https://img.shields.io/github/languages/code-size/semanticdata/mabuya" />
+  <img src="https://img.shields.io/github/repo-size/semanticdata/mabuya" />
+  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/mabuya" />
+  <img src="https://img.shields.io/github/last-commit/semanticdata/mabuya" />
+  <img src="https://img.shields.io/website/https/semanticdata.github.io/mabuya.svg" />
 </p>
 
-# Zola Tale
+# Mabuya
 
-Check out a live [Demo](https://semanticdata.github.io/zola-tale/) of the theme.
+Mabuya is a minimal Zola theme with the goal of helping you build a light and SEO-ready blog.
+
+Check out a live [Demo](https://semanticdata.github.io/mabuya/) of the theme.
 
 ## Features
 
@@ -27,8 +29,8 @@ Before using the theme, you need to install the [Zola](https://www.getzola.org/d
 ## Quick Start
 
 ```bash
-git clone git@github.com:semanticdata/zola-tale.git
-cd zola-tale
+git clone git@github.com:semanticdata/mabuya.git
+cd mabuya
 zola serve
 # open http://127.0.0.1:1111/ in the browser
 ```
@@ -54,7 +56,7 @@ Adding your custom css is as easy as adding your own styles to the `sass/_custom
 
 ## Lighthouse Scores
 
-Aiming for perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories. See the latest [scores](https://pagespeed.web.dev/analysis/https-semanticdata-github-io-zola-tale/0jg8x3evtr?form_factor=mobile).
+Aiming for perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories.
 
 ### Desktop
 
@@ -72,7 +74,7 @@ Aiming for perfect [Lighthouse](https://pagespeed.web.dev/) scores in all catego
 
 ## GTMetrix Scores
 
-Aiming for high scores in [GTMetrix](https://gtmetrix.com/). See the latest [performance report](https://gtmetrix.com/reports/semanticdata.github.io/uGxgzR0q/).
+Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
 
 - Performance: 100%
 - Structure: 100%
@@ -83,11 +85,11 @@ Aiming for high scores in [GTMetrix](https://gtmetrix.com/). See the latest [per
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the **Tale-Zola**. Please
-search [existing issues](https://github.com/semanticdata/zola-tale/issues). It’s
+We use GitHub Issues as the official bug tracker for **Mabuya**. Please
+search [existing issues](https://github.com/semanticdata/mabuya/issues). It’s
 possible someone has already reported the same problem.
 
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/zola-tale/issues/new).
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/mabuya/issues/new).
 
 ## Contributing
 
@@ -96,7 +98,7 @@ about the kinds of contributions we're looking for.
 
 ## Acknowledgements and Attributions
 
-Zola Tale is based on [Tale-Zola](https://github.com/aaranxu/tale-zola), a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale).
+Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale).
 
 The icons used are part of [UXWing](https://uxwing.com/license/)'s collection.
 

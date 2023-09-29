@@ -24,7 +24,7 @@
 
   {% if config.generate_feed %}
   <link type="application/atom+xml" rel="alternate" href="{{ get_url(path=config.feed_filename | default(value="
-    atom.xml")) | safe }}" title="{{ config.title | default(value=" Tale-Zola") }}" />
+    atom.xml")) | safe }}" title="{{ config.title | default(value=" Mabuya") }}" />
   {% endif %}
 
   {% if config.extra.google_analytics %}
@@ -46,7 +46,7 @@
   <nav class="nav">
     <div class="nav-container">
       <a href="{{ config.base_url | safe }}">
-        <h2 class="nav-title">{{ config.title | default(value="Tale-Zola")}}</h2>
+        <h2 class="nav-title">{{ config.title | default(value="Mabuya")}}</h2>
       </a>
       <ul>
         {% if config.extra.menu %}
@@ -74,10 +74,10 @@
       {%- if config.extra.footer -%}
       &copy; {{ macros::time() }} {{ config.extra.author | default(value="Miguel Pimentel")}}. {{
       config.extra.footer.info
-      | default(value="Powered by Zola and Tale.") | safe }}
+      | default(value="Powered by Zola and Mabuya.") | safe }}
       {%- else -%}
       &copy; 2023 Miguel Pimentel. Powered by <a href="https://www.getzola.org">Zola</a> and <a
-        href="https://github.com/aaranxu/tale-zola">Tale</a>.
+        href="https://github.com/semanticdata/mabuya">Mabuya</a>.
       {%- endif -%}
     </span>
 

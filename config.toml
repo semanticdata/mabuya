@@ -1,6 +1,6 @@
-base_url = "https://semanticdata.github.io/zola-tale/"
-title = "Miguel Pimentel"
-description = "I'm Miguel—hobby developer, music enjoyer, and public infrastructure enthusiast."
+base_url = "https://semanticdata.github.io/mabuya/"
+title = "Mabuya"
+description = "Mabuya is a minimal Zola theme with the goal of helping you build a light and SEO-ready blog."
 
 compile_sass = true
 generate_feed = true
@@ -38,7 +38,7 @@ url = "about"
 [extra.footer]
 start_year = "2023" # start year of the site
 end_year = "2023" # end year of the site
-info = "Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/aaranxu/tale-zola\">Tale</a>."
+info = "Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/semanticdata/mabuya\">Mabuya</a>."
 
 [extra.expressions]
 home = "Home" # The homepage's name
@@ -56,17 +56,17 @@ p404_back_home_end = "."
 
 [extra.seo]
 og_locale = "en_US"
-# image = "tale.png"
+# image = "mabuya.png"
 # image_height = 0
 # image_width = 0
 
 # [extra.seo.twitter]
-# site = "aaranxu"
-# creator = "aaranxu"
+# site = ""
+# creator = ""
 
 # [extra.seo.facebook]
-# admins = "ichunyun"
-# publisher = "ichunyun"
+# admins = ""
+# publisher = ""
 # app_id = ""
 
 # Webmaster verifications' tokens

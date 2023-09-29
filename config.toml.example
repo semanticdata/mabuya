@@ -1,12 +1,12 @@
 # The URL the site will be built for
-base_url = "https://semanticdata.github.io/zola-tale/"
+base_url = "https://semanticdata.github.io/mabuya/"
 
-# Use the Tale-Zola theme
-theme = "zola-tale"
+# Use the Mabuya theme
+theme = "mabuya"
 
 # The basic information about the site
-title = "Zola-Tale"
-description = "Zola-Tale is a minimal Zola theme helping you to build a light blog, and you can customise any information of the blog without having to modify the codes of the template."
+title = "Mabuya"
+description = "Mabuya is a minimal Zola theme helping you to build a light blog, and you can customise any information of the blog without having to modify the codes of the template."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -57,18 +57,18 @@ disqus_id = ""
 ## Open Graph + Twitter Cards
 [extra.seo]
 # this image will be used as fallback if a page has no image of its own
-image = "tale.png"
+image = "mabuya.png"
 image_height = 0
 image_width = 0
 og_locale = "en_US"
 
   [extra.seo.twitter]
-  site = "aaranxu"
-  creator = "aaranxu"
+  site = ""
+  creator = ""
 
   [extra.seo.facebook]
-  admins = "ichunyun"
-  publisher = "ichunyun"
+  admins = ""
+  publisher = ""
   app_id = ""
 
   # Webmaster verifications' tokens
@@ -96,7 +96,7 @@ url = "about"
 [extra.footer]
 start_year = "2020"  # start year of the site
 end_year = "2021"    # end year of the site
-info = "Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/aaranxu/tale-zola\">Tale</a>."
+info = "Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/semanticdata/mabuya\">Mabuya</a>."
 
 
 # The options below are used to refer to the expressions on the pages, and you

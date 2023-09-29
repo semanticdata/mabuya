@@ -17,5 +17,5 @@ The AdiDoks theme has a [code of conduct](./CODE_OF_CONDUCT.md) that governs all
 
 ## Create an issue
 
-- [Bug report](https://github.com/aaranxu/adidoks/issues/new?template=bug-report---.md)
-- [Feature request](https://github.com/aaranxu/adidoks/issues/new?template=feature-request---.md)
+- [Bug report](https://github.com/semanticdata/mabuya/issues/new?template=bug-report---.md)
+- [Feature request](https://github.com/semanticdata/mabuya/issues/new?template=feature-request---.md)
