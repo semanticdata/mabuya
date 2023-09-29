@@ -29,6 +29,32 @@ While working on the theme, I have added new functionality and quality of life i
 - Addressed Issue [#4](https://github.com/aaranxu/tale-zola/issues/4).
 - And many other small improvements.
 
+## Screenshots
+
+|     |     |
+| --- | --- |
+| ![website screenshot](screenshots/screenshot-index-wide.png) | ![website screenshot](screenshots/screenshot-index-wide-dark.png) |
+| ![website screenshot](screenshots/screenshot-post-wide.png) | ![website screenshot](screenshots/screenshot-mobile.png) |
+
+<!-- <table>
+<tr>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td><img alt="website screenshot" width="710px" height="auto" src="screenshots/screenshot-index-wide-dark.png" />
+</td>
+<td><img alt="website screenshot" width="710px" height="auto" src="screenshots/screenshot-index-wide.png" />
+</td>
+</tr>
+<tr>
+<td><img alt="website screenshot" width="710px" height="auto" src="screenshots/screenshot-post-wide.png" />
+</td>
+<td><img alt="website screenshot" width="710px" height="auto" src="screenshots/screenshot-mobile.png" />
+</td>
+</tr>
+</table> -->
+
 ## Requirements
 
 Before using the theme, you need to install the [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.17.2.
