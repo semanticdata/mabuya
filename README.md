@@ -12,6 +12,8 @@ Mabuya is a minimal Zola theme with the goal of helping you build a light and SE
 
 Check out a live [Demo](https://semanticdata.github.io/mabuya/) of the theme.
 
+Mabuya is named as such after [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), possibly extinct[^1] species of skink endemic to the Dominican Republic.
+
 ## Features
 
 While working on the theme, I have made a few changes. Here's a short non-conclusive list:
@@ -79,9 +81,9 @@ Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
 - Performance: 100%
 - Structure: 100%
 - Total Website size: 64KB compressed, 78KB uncompressed.
-- Largest Contentful Paint:[^1] 287ms.
-- Total Blocking Time:[^2] 0ms.
-- Cumulative Layout Shift:[^3] 0.01.
+- Largest Contentful Paint:[^2] 287ms.
+- Total Blocking Time:[^3] 0ms.
+- Cumulative Layout Shift:[^4] 0.01.
 
 ## Reporting Issues
 
@@ -106,6 +108,7 @@ The icons used are part of [UXWing](https://uxwing.com/license/)'s collection.
 
 Source code is available under [MIT](LICENSE).
 
-[^1]: For a good user experience, aim for an LCP of 1.2 seconds or less.
-[^2]: For a good user experience, aim for a TBT of 150 milliseconds or less.
-[^3]: For a good user experience, aim for a CLS score of 0.1 or less.
+[^1]: *Mabuya hispaniolae*'s conservation status is *Critically endangered, possibly extinct*.  
+[^2]: For a good user experience, aim for an LCP of 1.2 seconds or less.  
+[^3]: For a good user experience, aim for a TBT of 150 milliseconds or less.  
+[^4]: For a good user experience, aim for a CLS score of 0.1 or less.  
