@@ -1,17 +1,9 @@
 .copyright {
-  float: left;
-  position: relative;
-  padding-left: 1rem;
   a {
     color: $default-color;
     font-family: $sans-serif;
   }
 }
-
-// max-width: 800px;
-// width: 80%;
-// padding: 2rem 0;
-// margin: 0 auto;
 
 .navigation-footer {
   float: right;
@@ -61,27 +53,22 @@
     float: none;
     position: relative;
     bottom: 0;
-    // padding-right: 0;
   }
   .copyright {
     float: none;
     position: relative;
-    // padding-left: 0;
-    // top: 2rem;
   }
 }
 
 @media (min-width: 801px) {
   .navigation-footer {
-    float: right;
-    position: relative;
-    bottom: 14px;
-    padding-right: 1rem;
+    padding: 0;
+    bottom: 0;
   }
   .copyright {
-    text-align: center;
     float: left;
     position: relative;
-    padding-left: 1rem;
+    // text-align: center;
+    // padding-left: 0;
   }
 }
