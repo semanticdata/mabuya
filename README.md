@@ -31,10 +31,10 @@ While working on the theme, I have added new functionality and quality of life i
 
 ## Screenshots
 
-|     |     |
-| --- | --- |
-| ![website screenshot](screenshots/screenshot-index-wide.png) | ![website screenshot](screenshots/screenshot-index-wide-dark.png) |
-| ![website screenshot](screenshots/screenshot-post-wide.png) | ![website screenshot](screenshots/screenshot-mobile.png) |
+| Desktop | Mobile |
+| :-----: | :----: |
+| ![website screenshot](screenshots/screenshot-index-wide.png) | ![website screenshot](screenshots/screenshot-mobile.png) |
+| ![website screenshot](screenshots/screenshot-index-wide-dark.png) | |
 
 <!-- <table>
 <tr>
