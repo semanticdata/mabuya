@@ -1,0 +1,10 @@
+name = "Mabuya"
+description = "🦎 Mabuya—a minimal Zola theme with the goal of helping you build a light and SEO-ready blog."
+license = "MIT"
+homepage = "https://github.com/semanticdata/mabuya"
+min_version = "0.17.2"
+demo = "https://semanticdata.github.io/mabuya"
+
+[author]
+name = "Miguel Pimentel"
+homepage = "https://miguelpimentel.do"
