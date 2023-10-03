@@ -1,25 +1,27 @@
 :root {
   --default-color: #555;
   --default-shade: #353535;
-  --default-tint: #aaa;
-  --grey-1: #979797;
-  --grey-2: #e5e5e5;
+  --default-tint: #808080;
+  // --grey-1: #979797;
+  --grey-2: #aaaaaa;
   --shadow-color: rgba(0, 0, 0, 0.2);
-  --code-color: #bf616a;
-  --background-color: #fff;
+  --code-color: #152f77;
+  --background-color: #f0f0f0;
   --link-color: #02aa3a;
+  --blockquote-color: #555;
 }
 
 [saved-theme="dark"] {
-  --default-color: #c7c7c7;
+  --default-color: #cdd6f4;
   --default-shade: #dddddd;
-  --default-tint: #727272;
-  --grey-1: #747474;
-  --grey-2: #222222;
-  --shadow-color: rgba(0, 0, 0, 0.2);
+  --default-tint: #aaaaaa;
+  // --grey-1: #bbbbbb;
+  --grey-2: #dadada; // catalogue-time, post-info
+  --shadow-color: #f8f8f8;
   --code-color: #bf616a;
-  --background-color: #000;
-  --link-color: #c240c2;
+  --background-color: #1e1e2e;
+  --link-color: #a6e3a1;
+  --blockquote-color: #cdd6f4;
 }
 
 // Colors
@@ -31,6 +33,7 @@ $grey-2: var(--grey-2);
 $shadow-color: var(--shadow-color);
 $code-color: var(--code-color);
 $background-color: var(--background-color);
+$blockquote-color: var(--blockquote-color);
 
 // Fonts
 $serif-primary: "Libre Baskerville", "Times New Roman", Times,
