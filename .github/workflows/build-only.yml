@@ -1,10 +1,10 @@
-name: Zola - Deploy to GH Pages
+name: Zola - Build only
 
 on:
   # push:
   #   branches:
   #     - main
-  # pull_request:
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,7 @@ defaults:
     shell: bash
 
 jobs:
-  build:
+  build-only:
     runs-on: ubuntu-latest
     # if: github.ref != 'refs/heads/main'
     steps:
@@ -32,21 +32,6 @@ jobs:
       - name: Build Zola
         run: zola build
         env:
-          # BUILD_ONLY: true
-          # BUILD_FLAGS: --drafts
+          BUILD_ONLY: true
+          BUILD_FLAGS: --drafts
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: ./public
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
