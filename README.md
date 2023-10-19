@@ -33,8 +33,8 @@ While working on the theme, I have added new functionality and quality of life i
 
 | Desktop | Mobile |
 | :-----: | :----: |
-| ![website screenshot](screenshots/screenshot-index-wide.png) | ![website screenshot](screenshots/screenshot-mobile.png) |
-| ![website screenshot](screenshots/screenshot-index-wide-dark.png) | |
+| ![website screenshot](screenshots/screenshot-index-wide-dark.png) | ![website screenshot](screenshots/screenshot-mobile.png) |
+<!-- | ![website screenshot](screenshots/screenshot-index-wide-dark.png) | | -->
 
 <!-- <table>
 <tr>

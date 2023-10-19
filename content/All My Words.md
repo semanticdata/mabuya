@@ -2,7 +2,6 @@
 title: All My Words
 description: Anim veniam enim elit consectetur minim est sit Lorem veniam amet.
 date: 2023-05-23
-lastmod: 2023-09-29
 taxonomies:
   tags: [placeholder]
 ---

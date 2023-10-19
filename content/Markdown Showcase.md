@@ -2,53 +2,70 @@
 title: Markdown Showcase
 description: Markdown Showcase page.
 date: 2023-06-06
-lastmod: 2023-09-29
 taxonomies:
   tags: [placeholder, markdown, reference]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis.
+This is intended as a quick reference and showcase of Markdown's synthax.
 
 <!-- more -->
 
-# H1 Heading 1
+# Heading Level 1
 
-## H2 Heading 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
-### H3 Heading 3
+## Heading Level 2
 
-#### H4 Heading 4
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
-##### H5 Heading 5
+### Heading Level 3
 
-###### H6 Heading 6
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
+
+#### Heading Level 4
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
+
+##### Heading Level 5
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
+
+###### Heading Level 6
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## Text Formatting
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Text can be **bold**, _italic_, or ~~strikethrough~~.  
+**Bold**, _Italic_, _**Both**_.  
+**Bold**, _Italic_, ~~Strikethrough~~, ~~_**ALL OF THEM**_~~.
+
+## Links
 
 You can [link](https://example.dom/) to external pages. and other internal [[Markdown|links]].
 
 ## Blockquotes
 
-### Example 1
+### Simple Example
 
-> This is a blockquote
+> This is a blockquote  
 > with several lines
 
-### Example 2
+### Formatted Example
 
-> ## This is a header.
+> **Blockquote Embedded List**
+>
 > 1. This is the first list item.
 > 2. This is the second list item.
-> 
+>
 > Here's some example code:
-> 
->     Markdown.generate();
+> `Markdown.generate();`
 
 ## Lists
 
 ### Ordered List
+
+In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
 1. First item
 2. Second item
@@ -56,15 +73,24 @@ You can [link](https://example.dom/) to external pages. and other internal [[Mar
 
 ### Unordered List
 
+In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+
 * List item
 * Another item
 * And another item
 
 ### Nested List
 
+In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+
 * Item
-	1. First Sub-item
-	2. Second Sub-item
+ 1. First Sub-item
+ 2. Second Sub-item
+
+1. Numbered Item
+2. Another one
+ 1. Sub-item
+ * Unordered again
 
 ## Code
 
@@ -76,18 +102,18 @@ Let us use some `inline code` and check out how it `looks`. Here's some `more`.
 
 ```html
 <html>
-	<head>
-		<div style="background-color: #333;">
-			<a href="https://example.com/">Example</a>
-		</div>
-	</head>
+  <head>
+  <div style="background-color: #333;">
+   <a href="https://example.com/">Example</a>
+  </div>
+ </head>
 </html>
 ```
 
 ```css
 .niceClass {
-	color: blue;
-	background-color: #fff;
+ color: blue;
+ background-color: #fff;
 }
 ```
 
@@ -101,6 +127,8 @@ var fun = function lang(l) {
 
 ## Tables
 
+In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
+
 |head one|head two|head three|
 |---|:---:|---:|
 |ok|good swedish fish|nice|
@@ -108,7 +136,25 @@ var fun = function lang(l) {
 |ok|good `oreos`|hmm|
 |ok|good `zoute` drop|yumm|
 
-## Inline Markdown Within Tables
+### Simple Example
+
+Title 1               | Title 2               | Title 3               | Title 4
+--------------------- | --------------------- | --------------------- | ---------------------
+lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
+lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+
+### Longer Example
+
+Title 1 | Title 2 | Title 3 | Title 4
+--- | --- | --- | ---
+lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
+lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
+lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
+lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
+
+### Inline Markdown Within Tables
 
 | Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
 | ---------- | --------- | ----------------- | ---------- |
@@ -118,17 +164,10 @@ var fun = function lang(l) {
 
 ---
 
-## Tasks and Todos
+## Tasks
 
-- [ ] Pending Task
-- [x] Completed Task
-* [-] Won't Do Task
-* [/] In Progress Task
-* [*] You are a star.
-* [!] Exclamation Mark!
-* [?] Question Mark?
-* [<] Scheduled Task
-* [>] Forwarded Task
+* [ ] Pending Task
+* [x] Completed Task
 
 ## Images
 
@@ -136,12 +175,22 @@ var fun = function lang(l) {
 
 ## Other Elements — Abbr, Sub, Sup, Kbd, Mark
 
+### Description
+
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+
+### Subscript
 
 H<sub>2</sub>O
 
+### Superscript
+
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
+### Keys Representation
+
 Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+
+### Highlighting
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
