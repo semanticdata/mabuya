@@ -91,16 +91,16 @@ Adding your custom css is as easy as adding your own styles to the `sass/_custom
 
 Aiming for perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories.
 
-### Desktop
+### Mobile
 
-- [x] Performance: 100 / 100
+- [ ] Performance: 94 / 100
 - [ ] Accesibility: 93 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
 
-### Mobile
+### Desktop
 
-- [ ] Performance: 93 / 100
+- [ ] Performance: 99 / 100
 - [ ] Accesibility: 93 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
@@ -111,10 +111,10 @@ Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
 
 - Performance: 100%
 - Structure: 100%
-- Total Website size: 64KB compressed, 78KB uncompressed.
-- Largest Contentful Paint:[^2] 287ms.
+- Total Website size: 39.1KB compressed, 64.6KB uncompressed.
+- Largest Contentful Paint:[^2] 194ms.
 - Total Blocking Time:[^3] 0ms.
-- Cumulative Layout Shift:[^4] 0.01.
+- Cumulative Layout Shift:[^4] 0.
 
 ## Reporting Issues
 
