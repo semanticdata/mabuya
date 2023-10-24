@@ -28,41 +28,4 @@ name = "Tags"
 url = "tags"
 
 [extra.footer]
-start_year = "2023" # start year of the site
-end_year = "2023" # end year of the site
 info = "Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/semanticdata/mabuya\">Mabuya</a>."
-
-[extra.expressions]
-home = "Home" # The homepage's name
-written_by = "Written by" # Like: Written by Miguel Pimentel
-on = "on" # Like: on May 3, 2021
-top = "Top" # Go to the top of the page in the post
-tags = "Tags" # In the page of Tags
-p404 = "404: Page not found"
-p404_info = "Oops! We can't seem to find the page you are looking for."
-p404_back_home_start = "Let's"
-p404_back_home_with_link = "head back home"
-p404_back_home_end = "."
-
-[extra.seo]
-og_locale = "en_US"
-# image = "mabuya.png"
-# image_height = 0
-# image_width = 0
-
-# [extra.seo.twitter]
-# site = ""
-# creator = ""
-
-# [extra.seo.facebook]
-# admins = ""
-# publisher = ""
-# app_id = ""
-
-# Webmaster verifications' tokens
-# [extra.seo.webmaster]
-# google = ""
-# bing = ""
-# alexa = ""
-# yandex = ""
-# baidu = ""

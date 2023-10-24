@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Something about Silicon Dioxide isn't working the way you expect
+about: Something about Mabuya isn't working the way you expect
 title: ''
 labels: bug
 assignees: 'semanticdata'

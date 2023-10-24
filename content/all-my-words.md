@@ -1,14 +1,12 @@
 ---
 title: All My Words
-description: Anim veniam enim elit consectetur minim est sit Lorem veniam amet.
+description: "Anim veniam enim elit consectetur minim est sit Lorem veniam amet."
 date: 2023-05-23
 taxonomies:
   tags: [placeholder]
 ---
 
 Cillum minim quis commodo dolor nisi ea aute. Laborum duis ut mollit laborum eiusmod voluptate tempor eu enim eiusmod mollit in exercitation. Esse labore nulla ullamco officia dolore laborum exercitation do eu ad labore voluptate et. Anim veniam enim elit consectetur minim est sit Lorem veniam amet.
-
-<!-- more -->
 
 Minim duis ea culpa elit mollit sint. Voluptate duis anim ex amet cillum id adipisicing. Quis sunt velit qui dolore deserunt occaecat amet ea deserunt.
 

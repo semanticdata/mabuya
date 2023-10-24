@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest an idea or improvement for Silicon Dioxide
+about: Suggest an idea or improvement for Mabuya
 title: ''
 labels: enhancement
 assignees: 'semanticdata'

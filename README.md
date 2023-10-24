@@ -33,31 +33,11 @@ While working on the theme, I have added new functionality and quality of life i
 
 | Desktop | Mobile |
 | :-----: | :----: |
-| ![website screenshot](screenshots/screenshot-index-wide-dark.png) | ![website screenshot](screenshots/screenshot-mobile.png) |
-<!-- | ![website screenshot](screenshots/screenshot-index-wide-dark.png) | | -->
-
-<!-- <table>
-<tr>
-<th></th>
-<th></th>
-</tr>
-<tr>
-<td><img alt="website screenshot" width="710px" height="auto" src="screenshots/screenshot-index-wide-dark.png" />
-</td>
-<td><img alt="website screenshot" width="710px" height="auto" src="screenshots/screenshot-index-wide.png" />
-</td>
-</tr>
-<tr>
-<td><img alt="website screenshot" width="710px" height="auto" src="screenshots/screenshot-post-wide.png" />
-</td>
-<td><img alt="website screenshot" width="710px" height="auto" src="screenshots/screenshot-mobile.png" />
-</td>
-</tr>
-</table> -->
+| ![website screenshot](screenshots/screenshot-index-dark.png) | ![website screenshot](screenshots/screenshot-mobile.png) |
 
 ## Requirements
 
-Before using the theme, you need to install the [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.17.2.
+Before using the theme, you need to install [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.17.2.
 
 ## Quick Start
 
@@ -70,8 +50,7 @@ zola serve
 
 ## Customization
 
-You can customize your configurations, templates and content for yourself. Look
-at the `config.toml`, `theme.toml` and templates files in this repo for an idea.
+You can customize your configurations, templates and content for yourself. Look at the `config.toml`, and templates files in this repo for an idea.
 
 In most cases you only need to modify the content in the `config.toml` file to
 custom your blog, including different expressions in your speaking language.
@@ -131,9 +110,9 @@ about the kinds of contributions we're looking for.
 
 ## Acknowledgements and Attributions
 
-Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale).
+Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), which is a port of [Tale](https://github.com/chesterhow/tale), a Jekyll theme.
 
-The icons used are part of [UXWing](https://uxwing.com/license/)'s collection.
+Icons used come from [UXWing](https://uxwing.com/license/).
 
 ## License
 

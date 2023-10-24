@@ -1,6 +1,6 @@
 # Contributing
 
-We'd love your help! Thanks for caring about our theme of Zola.
+We'd love your help! Thanks for caring about our theme for Zola.
 
 ## Licensing
 
@@ -8,7 +8,7 @@ This repository is under the MIT license. You can find the full text of the [lic
 
 ## Code of Conduct
 
-The Unamed theme has a [code of conduct](./CODE_OF_CONDUCT.md) that governs all sub-projects, including this one. Please respect it!
+The Mabuya theme has a [code of conduct](./CODE_OF_CONDUCT.md) that governs all sub-projects, including this one. Please respect it.
 
 ## Contribute to Mabuya
 
