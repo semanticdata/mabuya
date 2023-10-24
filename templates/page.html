@@ -57,8 +57,6 @@ image_height=image_height, image_width=image_width, web_type=web_type) }}
 	{{ page.content | safe }}
 </div>
 
-{% include "partials/disqus.html" %}
-
 <div class="pagination">
 	{% if page.higher -%}
 	<a href="{{ page.higher.permalink | safe }}" class="left arrow">&#8592;</a>

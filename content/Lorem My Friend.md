@@ -2,7 +2,6 @@
 title: Lorem My Friend
 description: Qui quis aliquip enim sit elit laborum dolore qui Lorem anim ipsum anim pariatur.
 date: 2023-04-15
-lastmod: 2023-09-29
 taxonomies:
   tags: [placeholder]
 ---
