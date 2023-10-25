@@ -14,7 +14,7 @@ Check out a live [Demo](https://semanticdata.github.io/mabuya/) of the theme.
 
 Mabuya is named as such after [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), possibly extinct[^1] species of skink endemic to the Dominican Republic.
 
-## Features (out-of-date)
+## Features (*out-of-date*)
 
 While working on the theme, I have added new functionality and quality of life improvements. Here's a short non-conclusive list:
 
@@ -47,7 +47,7 @@ Perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories.
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
 
-## Screenshots
+## Screenshots (*out-of-date*)
 
 | Desktop | Mobile |
 | :-----: | :----: |
