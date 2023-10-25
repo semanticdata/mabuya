@@ -73,14 +73,14 @@ Aiming for perfect [Lighthouse](https://pagespeed.web.dev/) scores in all catego
 ### Mobile
 
 - [ ] Performance: 94 / 100
-- [ ] Accesibility: 93 /100
+- [x] Accesibility: 100 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
 
 ### Desktop
 
 - [ ] Performance: 99 / 100
-- [ ] Accesibility: 93 /100
+- [x] Accesibility: 100 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
 
