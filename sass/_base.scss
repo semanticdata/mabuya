@@ -81,3 +81,118 @@ table td {
   padding: 0.5em;
   border: 1px solid $grey;
 }
+
+main,
+footer,
+.nav-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+}
+
+.nav {
+  box-shadow: 0 2px 2px -2px $shadow-color;
+  overflow: auto;
+
+  &-container {
+    margin: 1rem auto;
+    position: relative;
+    text-align: center;
+  }
+
+  &-title {
+    @include transition(all 0.2s ease-out);
+    color: $default-color;
+    display: inline-block;
+    margin: 0;
+    padding-right: 0.2rem;
+
+    &:hover,
+    &:focus {
+      opacity: 0.6;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    @include transition(all 0.2s ease-out);
+    color: $default-color;
+    display: inline-block;
+    opacity: 0.6;
+    padding: 0 2rem 0 0;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+
+  a {
+    color: $default-color;
+    font-family: $sans-serif;
+  }
+}
+
+@media (min-width: 600px) {
+  .nav {
+    &-container {
+      text-align: left;
+    }
+
+    ul {
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
+// Justify text content on sections and index
+a div p {
+  text-align: justify;
+}
+
+.notfound {
+  position: relative;
+  text-align: center;
+  margin: 4rem 0;
+
+  &-error {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+
+  &-line {
+    border-top: 0.4rem solid $default-shade;
+    display: block;
+    margin: 0 auto 3rem;
+    width: 4rem;
+  }
+
+  &-message {
+    max-width: 25rem;
+    margin: 0 auto;
+  }
+}
+
+.footnote-definition {
+  sup {
+    top: -0.2.5em;
+    font-size: 0.75em;
+    display: inline;
+  }
+  p {
+    display: inline;
+  }
+}

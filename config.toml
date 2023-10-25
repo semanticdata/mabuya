@@ -4,6 +4,7 @@ description = "Mabuya is a minimal Zola theme with the goal of helping you build
 
 compile_sass = true
 generate_feed = true
+minify_html = true
 build_search_index = false
 taxonomies = [
   { name = "tags", feed = true },
