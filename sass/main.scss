@@ -1,6 +1,6 @@
 // Light theme Colors
 :root {
-  --default-color: rgba(0, 0, 0, 0.8);
+  --default-color: rgba(0, 0, 0, 0.9);
   --default-shade: #353535;
   --default-tint: #808080;
   --grey: #aaaaaa;
@@ -24,7 +24,7 @@
   --blockquote-color: #cdd6f4;
 }
 
-// Tunr colors into SCSS variables
+// Turn colors into SCSS variables
 $default-color: var(--default-color);
 $default-shade: var(--default-shade);
 $default-tint: var(--default-tint);
