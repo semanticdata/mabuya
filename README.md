@@ -90,8 +90,8 @@ Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
 
 - Performance: 100%
 - Structure: 100%
-- Total Website size: 39.1KB compressed, 64.6KB uncompressed.
-- Largest Contentful Paint:[^2] 194ms.
+- Total Website size: 33.5KB compressed, 48.6KB uncompressed.
+- Largest Contentful Paint:[^2] 244ms.
 - Total Blocking Time:[^3] 0ms.
 - Cumulative Layout Shift:[^4] 0.
 
