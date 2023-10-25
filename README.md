@@ -14,7 +14,7 @@ Check out a live [Demo](https://semanticdata.github.io/mabuya/) of the theme.
 
 Mabuya is named as such after [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), possibly extinct[^1] species of skink endemic to the Dominican Republic.
 
-## Features
+## Features (out-of-date)
 
 While working on the theme, I have added new functionality and quality of life improvements. Here's a short non-conclusive list:
 
@@ -28,6 +28,24 @@ While working on the theme, I have added new functionality and quality of life i
 - Addressed (temporarily) Issue [#1](https://github.com/aaranxu/tale-zola/issues/1).
 - Addressed Issue [#4](https://github.com/aaranxu/tale-zola/issues/4).
 - And many other small improvements.
+
+## Lighthouse Scores
+
+Perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories.
+
+### Mobile
+
+- [x] Performance: 100 / 100
+- [x] Accesibility: 100 /100
+- [x] Best Practices: 100 /100
+- [x] SEO: 100 /100
+
+### Desktop
+
+- [x] Performance: 100 / 100
+- [x] Accesibility: 100 /100
+- [x] Best Practices: 100 /100
+- [x] SEO: 100 /100
 
 ## Screenshots
 
@@ -66,32 +84,14 @@ Adding your custom css is as easy as adding your own styles to the `sass/_custom
 | `zola build`               | Build only                 |
 | `zola serve`               | Build and Serve            |
 
-## Lighthouse Scores
-
-Aiming for perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories.
-
-### Mobile
-
-- [ ] Performance: 99 / 100
-- [x] Accesibility: 100 /100
-- [x] Best Practices: 100 /100
-- [x] SEO: 100 /100
-
-### Desktop
-
-- [x] Performance: 100 / 100
-- [x] Accesibility: 100 /100
-- [x] Best Practices: 100 /100
-- [x] SEO: 100 /100
-
 ## GTMetrix Scores
 
 Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
 
 - Performance: 100%
 - Structure: 100%
-- Total Website size: 33.5KB compressed, 48.6KB uncompressed.
-- Largest Contentful Paint:[^2] 244ms.
+- Total Website size: 33.4KB compressed, 48.2KB uncompressed.
+- Largest Contentful Paint:[^2] 238ms.
 - Total Blocking Time:[^3] 0ms.
 - Cumulative Layout Shift:[^4] 0.
 

@@ -2,7 +2,7 @@
   padding: 2rem 0;
 
   &-info {
-    color: $default-tint;
+    color: $default-shade;
     font-family: $serif-secondary;
     letter-spacing: 0.5px;
     text-align: center;
@@ -41,7 +41,7 @@
   }
 
   img + em {
-    color: $default-tint;
+    color: $default-shade;
     display: block;
     font-family: $sans-serif;
     font-size: 0.9rem;
