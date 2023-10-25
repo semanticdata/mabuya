@@ -1,6 +1,6 @@
 ---
 title: Some articles are just so long they deserve a really long title to see if things will break well
-description: "Some articles are just so long they deserve a really long title to see if things will break well."
+description: "Some articles are just so long they deserve a really long title to see if things will break well. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam."
 date: 2016-05-20
 taxonomies:
   tags: [placeholder]

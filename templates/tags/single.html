@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="tags">
-  <div class="tags-header">
+<section class="tags">
+  <section class="tags-header">
     <h2 class="tags-header-title">#{{ term.name }}</h2>
-    <div class="tags-header-line"></div>
-  </div>
-</div>
+    <section class="tags-header-line"></section>
+  </section>
+</section>
 
-<div class="catalogue">
+<section class="catalogue">
   {% for page in term.pages -%}
   {{ macros::page(page=page) }}
   {%- endfor %}
-</div>
+</section>
 {% endblock content %}

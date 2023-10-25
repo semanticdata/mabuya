@@ -1,19 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="tags">
-	<div class="tags-header">
+<section class="tags">
+	<section class="tags-header">
 		<h2 class="tags-header-title">Tags</h2>
-		<div class="tags-header-line"></div>
-	</div>
-	<div class="tags-clouds">
+		<section class="tags-header-line"></section>
+	</section>
+	<section class="tags-clouds">
 		{% for term in terms -%}
 		<a href="#{{ term.name }}">#{{ term.name }}</a>
 		{%- endfor %}
-	</div>
+	</section>
 
 	{% for term in terms -%}
-	<div class="tags-item" id="{{ term.name }}">
+	<section class="tags-item" id="{{ term.name }}">
 		<svg class="tags-item-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
 			fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 			<path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
@@ -23,10 +23,10 @@
 
 		{% for page in term.pages -%}
 		<a class="tags-post" href="{{ page.permalink | safe }}">
-			<div>
+			<section>
 				<span class="tags-post-title">{{ page.title }}</span>
-				<div class="tags-post-line"></div>
-			</div>
+				<section class="tags-post-line"></section>
+			</section>
 			<span class="tags-post-meta">
 				<time datetime="{{ page.date }}">
 					{{ page.date | date(format=config.extra.timeformat |
@@ -35,7 +35,7 @@
 			</span>
 		</a>
 		{% endfor -%}
-	</div>
+	</section>
 	{% endfor -%}
-</div>
+</section>
 {% endblock content %}

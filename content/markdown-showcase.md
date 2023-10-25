@@ -1,6 +1,6 @@
 ---
 title: Markdown Showcase
-description: Markdown Showcase page.
+description: "This is intended as a quick reference and showcase of Markdown's synthax."
 date: 2023-06-06
 taxonomies:
   tags: [placeholder, markdown, reference]
@@ -103,9 +103,9 @@ Let us use some `inline code` and check out how it `looks`. Here's some `more`.
 ```html
 <html>
   <head>
-  <div style="background-color: #333;">
+  <section style="background-color: #333;">
    <a href="https://example.com/">Example</a>
-  </div>
+  </section>
  </head>
 </html>
 ```

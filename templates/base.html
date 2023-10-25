@@ -1,76 +1,20 @@
 {% import 'macros.html' as macros %}
+
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
-  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-  <meta name="description" itemprop="about" content="{{config.description}}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path="assets/favicon-32x32.png") | safe }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path="assets/favicon-16x16.png") | safe }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path="assets/apple-touch-icon.png") | safe }}">
-
-  {% if config.generate_feed %}
-  <link type="application/atom+xml" rel="alternate" href="{{ get_url(path=config.feed_filename | default(value="atom.xml")) | safe }}" title="{{ config.title | default(value=" Mabuya") }}" />
-  {% endif %}
-
-</head>
+{% include "partials/head.html" %}
 
 <body>
-  {% include "partials/darkmode.html" %}
-  {% block header %}
-  <nav class="nav">
-    <div class="nav-container">
-      <a href="{{ config.base_url | safe }}">
-        <h2 class="nav-title">{{ config.title | default(value="Mabuya")}}</h2>
-      </a>
-      <ul>
-        {% if config.extra.menu %}
-        {% for menu in config.extra.menu %}
-        <li><a href="{{ get_url(path=menu.url) | safe }}">{{ menu.name }}</a></li>
-        {% endfor %}
-        {% else %}
-        <li><a href="{{ config.base_url | safe }}">Posts</a></li>
-        <li><a href="{{ get_url(path="tags") | safe }}">Tags</a></li>
-        <li><a href="{{ get_url(path="about") | safe }}">About</a></li>
-        {% endif %}
-      </ul>
-    </div>
-  </nav>
-  {% endblock header %}
+
+  {% include "partials/header.html" %}
 
   <main>
     {% block content %}{% endblock content %}
   </main>
 
-  {% block footer %}
-  <footer>
+  {% include "partials/footer.html" %}
 
-    <span class="copyright">
-      {%- if config.extra.footer -%}
-      &copy; 2023 {{ config.extra.author | default(value="Miguel Pimentel")}}. {{
-      config.extra.footer.info
-      | default(value="Powered by Zola and Mabuya.") | safe }}
-      {%- else -%}
-      &copy; 2023 Miguel Pimentel. Powered by <a href="https://www.getzola.org">Zola</a> and <a
-        href="https://github.com/semanticdata/mabuya">Mabuya</a>.
-      {%- endif -%}
-    </span>
-
-    <nav class="navigation-footer">
-      <ul>
-        <li><a href="https://forgetfulnotes.com">Digital Garden</a></li>
-        <li><a href="https://github.com/semanticdata">GitHub</a></li>
-        <li><a href="https://instagram.com/miguelapv">Instagram</a></li>
-        <li><a href="https://www.linkedin.com/in/miguelpimentel29/">Linkedin</a></li>
-      </ul>
-    </nav>
-
-  </footer>
-  {% endblock footer %}
 </body>
 
 </html>

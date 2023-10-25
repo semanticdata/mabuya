@@ -1,0 +1,23 @@
+<footer>
+
+  <span class="copyright">
+    {%- if config.extra.footer -%}
+    © 2023 {{ config.extra.author | default(value="Miguel Pimentel")}}. {{
+    config.extra.footer.info
+    | default(value="Powered by Zola and Mabuya.") | safe }}
+    {%- else -%}
+    © 2023 Miguel Pimentel. Powered by <a href="https://www.getzola.org">Zola</a> and <a
+      href="https://github.com/semanticdata/mabuya">Mabuya</a>.
+    {%- endif -%}
+  </span>
+
+  <nav class="navigation-footer">
+    <ul>
+      <li><a href="https://forgetfulnotes.com">Digital Garden</a></li>
+      <li><a href="https://github.com/semanticdata">GitHub</a></li>
+      <li><a href="https://instagram.com/miguelapv">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/miguelpimentel29/">Linkedin</a></li>
+    </ul>
+  </nav>
+
+</footer>

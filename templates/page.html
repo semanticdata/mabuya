@@ -1,8 +1,8 @@
 {% extends "base.html"%}
 
 {% block content %}
-<div class="post">
-	<div class="post-info">
+<article class="post">
+	<section class="post-info">
 		{% if page.extra.author -%}
 		<span>Written by</span> {{ page.extra.author }}<br>
 		{% elif config.extra.author -%}
@@ -10,13 +10,13 @@
 		{%- endif %}
 		<span>on&nbsp;</span><time datetime="{{ page.date }}">{{
 			page.date | date(format=config.extra.timeformat | default(value="%B %e, %Y"))}}</time>
-	</div>
+		</section>
 	<h1 class="post-title">{{ page.title }}</h1>
-	<div class="post-line"></div>
+	<section class="post-line"></section>
 	{{ page.content | safe }}
-</div>
+</article>
 
-<div class="pagination">
+<section class="pagination">
 	{% if page.higher -%}
 	<a href="{{ page.higher.permalink | safe }}" class="left arrow">&#8592;</a>
 	{%- endif %}
@@ -24,5 +24,6 @@
 	{% if page.lower -%}
 	<a href="{{ page.lower.permalink | safe }}" class="right arrow">&#8594;</a>
 	{%- endif %}
-</div>
+</section>
+
 {% endblock content %}

@@ -1,22 +1,22 @@
+// Light theme Colors
 :root {
-  --default-color: #555;
+  --default-color: rgba(0, 0, 0, 0.8);
   --default-shade: #353535;
   --default-tint: #808080;
-  // --grey-1: #979797;
-  --grey-2: #aaaaaa;
+  --grey: #aaaaaa;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --code-color: #152f77;
-  --background-color: #f0f0f0;
+  --background-color: rgba(0, 0, 0, 0.05);
   --link-color: #02aa3a;
   --blockquote-color: #555;
 }
 
+// Dark theme colors
 [saved-theme="dark"] {
-  --default-color: #cdd6f4;
+  --default-color: rgb(255, 255, 255, 0.8);
   --default-shade: #dddddd;
-  --default-tint: #aaaaaa;
-  // --grey-1: #bbbbbb;
-  --grey-2: #dadada; // catalogue-time, post-info
+  --default-tint: rgb(255, 255, 255, 0.6);
+  --grey: #dadada;
   --shadow-color: #f8f8f8;
   --code-color: #bf616a;
   --background-color: #1e1e2e;
@@ -24,12 +24,11 @@
   --blockquote-color: #cdd6f4;
 }
 
-// Colors
+// Tunr colors into SCSS variables
 $default-color: var(--default-color);
 $default-shade: var(--default-shade);
 $default-tint: var(--default-tint);
-$grey-1: var(--grey-1);
-$grey-2: var(--grey-2);
+$grey: var(--grey);
 $shadow-color: var(--shadow-color);
 $code-color: var(--code-color);
 $background-color: var(--background-color);
@@ -60,6 +59,7 @@ $code-font: 400 1.125rem/1.75 SFMono-Regular, Consolas, Liberation Mono, Menlo,
 }
 
 @import
+"normalize",
 "base",
 "code",
 "post",

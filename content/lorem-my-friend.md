@@ -1,14 +1,12 @@
 ---
 title: Lorem My Friend
-description: Qui quis aliquip enim sit elit laborum dolore qui Lorem anim ipsum anim pariatur.
+description: "Velit ad culpa laborum sit eiusmod ullamco est culpa proident enim excepteur quis commodo incididunt. Qui quis aliquip enim sit elit laborum dolore qui Lorem anim ipsum anim pariatur. Veniam adipisicing nisi eiusmod cillum. Esse pariatur quis ut ex nostrud voluptate veniam culpa esse veniam."
 date: 2023-04-15
 taxonomies:
   tags: [placeholder]
 ---
 
 Velit ad culpa laborum sit eiusmod ullamco est culpa proident enim excepteur quis commodo incididunt. Qui quis aliquip enim sit elit laborum dolore qui Lorem anim ipsum anim pariatur. Veniam adipisicing nisi eiusmod cillum. Esse pariatur quis ut ex nostrud voluptate veniam culpa esse veniam.
-
-<!-- more -->
 
 Do aliquip nisi in ullamco nisi adipisicing ex. Magna et velit ea magna consequat Lorem commodo. Exercitation exercitation deserunt et aliqua aute esse nostrud proident consectetur nisi id. Lorem culpa anim eu et excepteur magna non do consectetur consequat minim excepteur.
 

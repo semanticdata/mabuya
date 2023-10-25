@@ -1,9 +1,3 @@
-.container {
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
-}
-
 main,
 footer,
 .nav-container {
@@ -77,17 +71,6 @@ footer,
       position: absolute;
       right: 0;
     }
-  }
-}
-
-footer {
-  font-family: $serif-secondary;
-  padding: 1rem 0;
-  text-align: center;
-
-  span {
-    color: $default-color;
-    font-size: 0.8rem;
   }
 }
 
