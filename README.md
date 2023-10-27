@@ -71,7 +71,7 @@ zola serve
 You can customize your configurations, templates and content for yourself. Look at the `config.toml`, and templates files in this repo for an idea.
 
 In most cases you only need to modify the content in the `config.toml` file to
-custom your blog, including different expressions in your speaking language.
+customize your blog.
 
 ### Custom CSS styles
 
