@@ -24,7 +24,7 @@
 		{% for page in term.pages -%}
 		<a class="tags-post" href="{{ page.permalink | safe }}">
 			<section>
-				<span class="tags-post-title">{{ page.title }}</span>
+				<span class="tags-post-title">{{ page.title | truncate(length=30) }}</span>
 				<section class="tags-post-line"></section>
 			</section>
 			<span class="tags-post-meta">
