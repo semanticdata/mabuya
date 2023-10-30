@@ -8,26 +8,27 @@
 
 # Mabuya
 
-Mabuya is a minimal Zola theme with the goal of helping you build a light and SEO-ready blog.
+Mabuya is a minimal Zola theme focused on helping you build an elegant, light, and SEO-ready blog.
 
-Check out a live [Demo](https://semanticdata.github.io/mabuya/) of the theme.
+Check out the live [Demo](https://semanticdata.github.io/mabuya/) of the theme.
 
-Mabuya is named as such after [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), possibly extinct[^1] species of skink endemic to the Dominican Republic.
+Mabuya is named as such after the [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), a possibly extinct[^1] species of skink endemic to the Dominican Republic my home country.
 
 ## Features (*out-of-date*)
 
 While working on the theme, I have added new functionality and quality of life improvements. Here's a short non-conclusive list:
 
 - Fully refactored stylesheets.
-- Added Dark mode and color scheme switch.
-- Added new footer navigation for external links.
-- Added GitHub Workflow to make deployment easier.
-- Refined page transition from desktop to mobile and viceversa.
-- Centralized custom variables. Easier to make color changes to the site.
+- Added Dark theme and color scheme toggle.
+- Added new footer navigation.
+- Created a custom GitHub Action that is faster than any other in GitHub.
+- Refined page transitions from desktop to mobile and viceversa.
+- Centralized custom variables. Made it easier to make color changes to the site.
 - Addressed PR [#7](https://github.com/aaranxu/tale-zola/pull/7).
 - Addressed (temporarily) Issue [#1](https://github.com/aaranxu/tale-zola/issues/1).
 - Addressed Issue [#4](https://github.com/aaranxu/tale-zola/issues/4).
-- And many other small improvements.
+- Optimized for speed and Accesibility. Showcased by the perfect Lighthouse scores across the board.
+- Many other small improvements.
 
 ## Lighthouse Scores
 
@@ -68,14 +69,14 @@ zola serve
 
 ## Customization
 
-You can customize your configurations, templates and content for yourself. Look at the `config.toml`, and templates files in this repo for an idea.
+You can customize configurations, templates and content yourself. Look at the `config.toml`, and templates files for an idea.
 
-In most cases you only need to modify the content in the `config.toml` file to
+In most cases you only need to modify the contents of `config.toml` to
 customize your blog.
 
 ### Custom CSS styles
 
-Adding your custom css is as easy as adding your own styles to the `sass/_custom.scss` file.
+Adding custom css is as easy as adding your styles to `sass/_custom.scss`.
 
 ## Useful Commands
 
@@ -110,13 +111,13 @@ about the kinds of contributions we're looking for.
 
 ## Acknowledgements and Attributions
 
-Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), which is a port of [Tale](https://github.com/chesterhow/tale), a Jekyll theme.
+Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), which is a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale).
 
-Icons used come from [UXWing](https://uxwing.com/license/).
+The icons used throughout the site are provided by  [UXWing](https://uxwing.com/license/).
 
 ## License
 
-Source code is available under [MIT](LICENSE).
+Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. that said, some acknowledgement would be well received.
 
 [^1]: *Mabuya hispaniolae*'s conservation status is *Critically endangered, possibly extinct*.  
 [^2]: For a good user experience, aim for an LCP of 1.2 seconds or less.  
