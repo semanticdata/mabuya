@@ -13,6 +13,7 @@ footer {
   a {
     color: $default-color;
     font-family: $sans-serif;
+    text-decoration: underline;
   }
 }
 
@@ -21,6 +22,7 @@ footer {
     font-size: 0.8rem;
     color: $default-color;
     font-family: $serif-secondary;
+    // text-decoration: underline;
   }
   
   ul {
