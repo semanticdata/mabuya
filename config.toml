@@ -1,6 +1,6 @@
 base_url = "https://semanticdata.github.io/mabuya/"
 title = "Mabuya"
-description = "Mabuya is a minimal Zola theme with the goal of helping you build a light and SEO-ready blog."
+description = "Mabuya is a minimal Zola theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project."
 
 compile_sass = true
 generate_feed = true
