@@ -8,15 +8,21 @@
 
 # Mabuya
 
-Mabuya is a minimal Zola theme focused on helping you build an elegant, light, and SEO-ready blog.
+Mabuya is a minimal Zola theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project.
 
-Check out the live [Demo](https://semanticdata.github.io/mabuya/) of the theme.
+Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
 
-Mabuya is named as such after the [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), a possibly extinct[^1] species of skink endemic to the Dominican Republic my home country.
+## Introduction to Mabuya
 
-## Features (*out-of-date*)
+While searching for themes, I came across [Zola Tale]. Sadly, the project's last update was on Dec 4, 2021. Shortly after, I decided to fork the project and add my own touches to it.
 
-While working on the theme, I have added new functionality and quality of life improvements. Here's a short non-conclusive list:
+## Where The Name Comes From
+
+The name Mabuya comes from the [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), a possibly extinct[^1] species of skink endemic to the Dominican Republic, my home country.
+
+## Features and Improvements 
+
+While working on the theme, I have added new functionality and many quality of life improvements. Here's a short non-inclusive list:
 
 - Fully refactored stylesheets.
 - Added Dark theme and color scheme toggle.
@@ -27,26 +33,41 @@ While working on the theme, I have added new functionality and quality of life i
 - Addressed PR [#7](https://github.com/aaranxu/tale-zola/pull/7).
 - Addressed (temporarily) Issue [#1](https://github.com/aaranxu/tale-zola/issues/1).
 - Addressed Issue [#4](https://github.com/aaranxu/tale-zola/issues/4).
-- Optimized for speed and Accesibility. Showcased by the perfect Lighthouse scores across the board.
-- Many other small improvements.
+- Optimized for speed and Accesibility.
+- And many other small improvements.
 
-## Lighthouse Scores
+## Performance Tests
+
+I put all my themes and website through Lighthouse and GTMetrix tezts. You can find a summary of the results bellow.
+
+### Lighthouse Scores
 
 Perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories.
 
-### Mobile
+#### Mobile
 
 - [x] Performance: 100 / 100
 - [x] Accesibility: 100 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
 
-### Desktop
+#### Desktop
 
 - [x] Performance: 100 / 100
 - [x] Accesibility: 100 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
+
+### GTMetrix Scores
+
+Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
+
+- Performance: 100%
+- Structure: 100%
+- Total Website size: 33.4KB compressed, 48.2KB uncompressed.
+- Largest Contentful Paint:[^2] 238ms.
+- Total Blocking Time:[^3] 0ms.
+- Cumulative Layout Shift:[^4] 0.
 
 ## Screenshots (*out-of-date*)
 
@@ -69,32 +90,23 @@ zola serve
 
 ## Customization
 
-You can customize configurations, templates and content yourself. Look at the `config.toml`, and templates files for an idea.
+You can changed the configuration, templates and content yourself. Refer to the `config.toml`, and templates files for an idea.
 
 In most cases you only need to modify the contents of `config.toml` to
-customize your blog.
+customize the appearance of your blog.
 
-### Custom CSS styles
+### Custom CSS Styles
 
-Adding custom css is as easy as adding your styles to `sass/_custom.scss`.
+Adding custom CSS is as easy as adding your styles to `sass/_custom.scss. This is made possible because SCSS files are backwards compatible with CSS3. This means you can type normal CSS code into a SCSS file and it will be valid.
 
 ## Useful Commands
+
+A short list of commands that will help you develop your own version of the theme.
 
 | Command                    | Description                |
 | -------------------------- | -------------------------- |
 | `zola build`               | Build only                 |
 | `zola serve`               | Build and Serve            |
-
-## GTMetrix Scores
-
-Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
-
-- Performance: 100%
-- Structure: 100%
-- Total Website size: 33.4KB compressed, 48.2KB uncompressed.
-- Largest Contentful Paint:[^2] 238ms.
-- Total Blocking Time:[^3] 0ms.
-- Cumulative Layout Shift:[^4] 0.
 
 ## Reporting Issues
 
@@ -113,7 +125,7 @@ about the kinds of contributions we're looking for.
 
 Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), which is a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale).
 
-The icons used throughout the site are provided by  [UXWing](https://uxwing.com/license/).
+The icons used throughout the site are kindly provided by [UXWing](https://uxwing.com/license/). Pay them a visit, maybe you'll get inspired and what not.
 
 ## License
 
