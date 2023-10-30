@@ -36,6 +36,10 @@ While working on the theme, I have added new functionality and many quality of l
 - Optimized for speed and Accesibility.
 - And many other small improvements.
 
+## Screenshots
+
+<img alt="Website Screenshot" src="screenshot.png" width="720px" />
+
 ## Performance Tests
 
 I put all my themes and website through Lighthouse and GTMetrix tezts. You can find a summary of the results bellow.
