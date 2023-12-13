@@ -35,28 +35,27 @@
       transition: opacity 0.1s ease;
       cursor: pointer;
     }
-  }
 
-  .toggle:checked~label {
-    &>#dayIcon {
-      opacity: 0;
+    .toggle:checked~label {
+      &>#dayIcon {
+        opacity: 0;
+      }
+
+      &>#nightIcon {
+        opacity: 1;
+        filter: invert(1);
+      }
     }
 
-    &>#nightIcon {
-      opacity: 1;
-      filter: invert(1);
-    }
-  }
+    .toggle:not(:checked)~label {
+      &>#dayIcon {
+        opacity: 1;
+      }
 
-  .toggle:not(:checked)~label {
-    &>#dayIcon {
-      opacity: 1;
+      &>#nightIcon {
+        opacity: 0;
+      }
     }
-
-    &>#nightIcon {
-      opacity: 0;
-    }
-  }
 </style>
 
 <script>

@@ -12,7 +12,7 @@ taxonomies = [
 
 [markdown]
 highlight_code = true
-highlight_theme = "ayu-light"
+# highlight_theme = "ayu-light"
 
 [extra]
 author = "Miguel Pimentel"
