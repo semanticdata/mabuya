@@ -1,7 +1,8 @@
-{% include "partials/darkmode.html" %}
+{# {% include "partials/darkmode.html" %} #}
 
 <nav class="nav">
   <section class="nav-container">
+
     <a href="{{ config.base_url | safe }}">
       <h2 class="nav-title">{{ config.title | default(value="Mabuya")}}</h2>
     </a>
@@ -15,6 +16,7 @@
       <li><a href="{{ get_url(path="tags") | safe }}">Tags</a></li>
       <li><a href="{{ get_url(path="about") | safe }}">About</a></li>
       {% endif %}
+      {% include "partials/darkmode.html" %}
     </ul>
   </section>
 </nav>
