@@ -46,8 +46,7 @@ $sans-serif: "Bitter", "Inconsolata";
 //   "Book Antiqua", "Georgia", serif !default;
 // $sans-serif: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif !default;
 $monospaced: Menlo, Monaco, monospace !default;
-$code-font: 400 1.125rem/1.75 SFMono-Regular, Consolas, Liberation Mono, Menlo,
-  monospace;
+$code-font: 400 1.125rem/1.75 SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
