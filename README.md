@@ -20,7 +20,7 @@ While searching for themes, I came across [Zola Tale]. Sadly, the project's last
 
 The name Mabuya comes from the [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), a possibly extinct[^1] species of skink endemic to the Dominican Republic, my home country.
 
-## Features and Improvements 
+## Features and Improvements
 
 While working on the theme, I have added new functionality and many quality of life improvements. Here's a short non-inclusive list:
 
@@ -36,10 +36,6 @@ While working on the theme, I have added new functionality and many quality of l
 - Optimized for speed and Accesibility.
 - And many other small improvements.
 
-## Screenshots
-
-<img alt="Website Screenshot" src="screenshot.png" width="720px" />
-
 ## Performance Tests
 
 I put all my themes and website through Lighthouse and GTMetrix tezts. You can find a summary of the results bellow.
@@ -50,7 +46,7 @@ Perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories.
 
 #### Mobile
 
-- [x] Performance: 100 / 100
+- [ ] Performance: 94 / 100
 - [x] Accesibility: 100 /100
 - [x] Best Practices: 100 /100
 - [x] SEO: 100 /100
@@ -73,11 +69,9 @@ Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
 - Total Blocking Time:[^3] 0ms.
 - Cumulative Layout Shift:[^4] 0.
 
-## Screenshots (*out-of-date*)
+## Screenshots
 
-| Desktop | Mobile |
-| :-----: | :----: |
-| ![website screenshot](screenshots/screenshot-index-dark.png) | ![website screenshot](screenshots/screenshot-mobile.png) |
+<img alt="Website Screenshot" src="screenshot.png" width="720px" />
 
 ## Requirements
 
