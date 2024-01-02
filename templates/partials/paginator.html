@@ -16,3 +16,11 @@
 	{%- endif %}
 </section>
 {% endif %}
+
+{% if section.pages %}
+<section class="catalogue">
+	{% for page in section.pages -%}
+	{{ macros::page(page=page) }}
+	{%- endfor %}
+</section>
+{% endif %}
