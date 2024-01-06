@@ -8,3 +8,8 @@ demo = "https://semanticdata.github.io/mabuya"
 [author]
 name = "Miguel Pimentel"
 homepage = "https://miguelpimentel.do"
+
+[original]
+author = "chesterhow"
+homepage = "https://chester.how/"
+repo = "https://github.com/chesterhow/tale"
