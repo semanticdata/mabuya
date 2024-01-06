@@ -14,6 +14,10 @@ Mabuya is a minimal [Zola](https://www.getzola.org/) theme focused on helping yo
 
 Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
 
+## Screenshots
+
+<img alt="Website Screenshot" src="screenshot.png" width="720px" />
+
 ### Start of Mabuya
 
 While searching for themes, I came across [Zola Tale](https://github.com/aaranxu/tale-zola). Sadly, the project's last update was on Dec 4, 2021. Shortly after, I decided to fork the project and add my own touches to it.
@@ -37,10 +41,6 @@ While working on the theme, I have added new functionality and many quality of l
 - Addressed Issue [#4](https://github.com/aaranxu/tale-zola/issues/4) fixing custom text not being used correctly.
 - Optimized for speed and Accesibility.
 - Many other small improvements...
-
-## Screenshots
-
-<img alt="Website Screenshot" src="screenshot.png" width="720px" />
 
 ## Running the Site Locally
 
@@ -92,7 +92,7 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 
 ## Contributing
 
-We'd love your help! Please see [CONTRIBUTING](.github/CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
+We'd love your help! Please see [CONTRIBUTING](./CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
 
 Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before conttributing.
 
