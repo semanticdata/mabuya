@@ -92,8 +92,9 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 
 ## Contributing
 
-We'd love your help! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) to learn
-about the kinds of contributions we're looking for.
+We'd love your help! Please see [CONTRIBUTING.md](.github/CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
+
+Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before conttributing.
 
 ## Acknowledgements and Attributions
 
