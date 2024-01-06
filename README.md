@@ -14,7 +14,7 @@ Mabuya is a minimal [Zola](https://www.getzola.org/) theme focused on helping yo
 
 Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
 
-## Screenshots
+### Screenshots
 
 <img alt="Website Screenshot" src="screenshot.png" width="720px" />
 
