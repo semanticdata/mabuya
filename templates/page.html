@@ -10,7 +10,7 @@
 		{%- endif %}
 		<span>on&nbsp;</span><time datetime="{{ page.date }}">{{
 			page.date | date(format=config.extra.timeformat | default(value="%B %e, %Y"))}}</time>
-		</section>
+	</section>
 	<h1 class="post-title">{{ page.title }}</h1>
 	<section class="post-line"></section>
 	{{ page.content | safe }}
@@ -25,5 +25,4 @@
 	<a href="{{ page.lower.permalink | safe }}" class="right arrow">&#8594;</a>
 	{%- endif %}
 </section>
-
 {% endblock content %}

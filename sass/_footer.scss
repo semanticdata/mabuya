@@ -1,18 +1,20 @@
+@use "variables";
+
 footer {
-  font-family: $serif-secondary;
+  font-family: variables.$serif-secondary;
   padding: 1rem 0;
   text-align: center;
-  
+
   span {
-    color: $default-color;
+    color: variables.$default-color;
     font-size: 0.8rem;
   }
 }
 
 .copyright {
   a {
-    color: $default-color;
-    font-family: $sans-serif;
+    color: variables.$default-color;
+    font-family: variables.$sans-serif;
     text-decoration: underline;
   }
 }
@@ -20,21 +22,21 @@ footer {
 .navigation-footer {
   a {
     font-size: 0.8rem;
-    color: $default-color;
-    font-family: $serif-secondary;
+    color: variables.$default-color;
+    font-family: variables.$serif-secondary;
     // text-decoration: underline;
   }
-  
+
   ul {
     list-style-type: none;
     margin: 0.5rem 0 0;
     padding: 0;
     text-align: center;
   }
-  
+
   li {
-    @include transition(all 0.2s ease-out);
-    color: $default-color;
+    @include variables.transition(all 0.2s ease-out);
+    color: variables.$default-color;
     display: inline-block;
     opacity: 0.7;
     padding: 0 1rem 0 0;
@@ -42,7 +44,7 @@ footer {
     &:last-child {
       padding-right: 0;
     }
-    
+
     &:hover,
     &:focus {
       opacity: 1;

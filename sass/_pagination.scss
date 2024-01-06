@@ -1,19 +1,21 @@
+@use "variables";
+
 .pagination {
-  border-top: 0.5px solid $grey;
-  font-family: $serif-secondary;
+  border-top: 0.5px solid variables.$grey;
+  font-family: variables.$serif-secondary;
   padding-top: 2rem;
   position: relative;
   text-align: center;
 
   span {
-    color: $default-shade;
+    color: variables.$default-shade;
     font-size: 1.1rem;
   }
 
   .top {
-    @include transition(all 0.3s ease-out);
-    color: $default-color;
-    font-family: $sans-serif;
+    @include variables.transition(all 0.3s ease-out);
+    color: variables.$default-color;
+    font-family: variables.$sans-serif;
     font-size: 1.1rem;
     opacity: 0.6;
 
@@ -23,8 +25,8 @@
   }
 
   .arrow {
-    @include transition(all 0.3s ease-out);
-    color: $default-color;
+    @include variables.transition(all 0.3s ease-out);
+    color: variables.$default-color;
     position: absolute;
 
     &:hover,

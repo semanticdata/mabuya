@@ -1,11 +1,13 @@
+@use "variables";
+
 * {
-  @include box-sizing;
+  // @include box-sizing;
   line-height: 1.5;
 }
 
 html {
-  color: $default-color;
-  background-color: $background-color;
+  color: variables.$default-color;
+  background-color: variables.$background-color;
 }
 
 a {
@@ -13,7 +15,7 @@ a {
 }
 
 html {
-  font-family: $serif-primary;
+  font-family: variables.$serif-primary;
   font-size: 14px;
   overflow-y: scroll;
 
@@ -28,8 +30,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: $default-shade;
-  font-family: $sans-serif;
+  color: variables.$default-shade;
+  font-family: variables.$sans-serif;
   line-height: normal;
 }
 
@@ -38,8 +40,8 @@ a {
 }
 
 blockquote {
-  border-left: 0.25rem solid $grey;
-  color: $blockquote-color;
+  border-left: 0.25rem solid variables.$grey;
+  color: variables.$blockquote-color;
   margin: 0.8rem 0;
   padding: 0.5rem 1rem;
 
@@ -60,15 +62,15 @@ img {
 
 table {
   margin: 0 auto;
-  color: $default-shade;
-  border: 1px solid $grey;
+  color: variables.$default-shade;
+  border: 1px solid variables.$grey;
   font-size: 12pt;
   border-collapse: collapse;
 }
 
 table thead th,
 table tfoot th {
-  color: $default-shade;
+  color: variables.$default-shade;
   background: rgba(0, 0, 0, 0.2);
 }
 
@@ -79,7 +81,7 @@ table caption {
 table th,
 table td {
   padding: 0.5em;
-  border: 1px solid $grey;
+  border: 1px solid variables.$grey;
 }
 
 main,
@@ -101,13 +103,13 @@ footer,
 
 pre,
 code {
-  font-family: $monospaced;
+  font-family: variables.$monospaced;
 }
 
 code {
-  background-color: $grey;
+  background-color: variables.$grey;
   border-radius: 3px;
-  color: $code-color;
+  color: variables.$code-color;
   font-size: 85%;
   padding: 0.25em 0.5em;
 }
@@ -122,11 +124,11 @@ pre code {
   color: inherit;
   font-size: 100%;
   padding: 0;
-  font: $code-font;
+  font: variables.$code-font;
 }
 
 .highlight {
-  background-color: $grey;
+  background-color: variables.$grey;
   border-radius: 3px;
   line-height: 1.4;
   margin: 0 0 1rem;
@@ -138,7 +140,7 @@ pre code {
   }
 
   .lineno {
-    color: $default-tint;
+    color: variables.$default-tint;
     display: inline-block; // Ensures the null space also isn't selectable
     padding: 0 0.75rem 0 0.25rem;
     // Make sure numbers aren't selectable
@@ -149,7 +151,7 @@ pre code {
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
+  box-shadow: 0 2px 2px -2px variables.$shadow-color;
   overflow: auto;
 
   &-container {
@@ -159,8 +161,8 @@ pre code {
   }
 
   &-title {
-    @include transition(all 0.2s ease-out);
-    color: $default-color;
+    @include variables.transition(all 0.2s ease-out);
+    color: variables.$default-color;
     display: inline-block;
     margin: 0;
     padding-right: 0.2rem;
@@ -179,8 +181,8 @@ pre code {
   }
 
   li {
-    @include transition(all 0.2s ease-out);
-    color: $default-color;
+    @include variables.transition(all 0.2s ease-out);
+    color: variables.$default-color;
     display: inline-block;
     opacity: 0.6;
     padding: 0 2rem 0 0;
@@ -196,8 +198,8 @@ pre code {
   }
 
   a {
-    color: $default-color;
-    font-family: $sans-serif;
+    color: variables.$default-color;
+    font-family: variables.$sans-serif;
   }
 }
 
@@ -231,7 +233,7 @@ a div p {
   }
 
   &-line {
-    border-top: 0.4rem solid $default-shade;
+    border-top: 0.4rem solid variables.$default-shade;
     display: block;
     margin: 0 auto 3rem;
     width: 4rem;

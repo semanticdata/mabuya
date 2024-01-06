@@ -1,15 +1,17 @@
+@use "variables";
+
 .tags {
   &-header {
     &-title {
-      color: $default-shade;
-      font-family: $sans-serif;
+      color: variables.$default-shade;
+      font-family: variables.$sans-serif;
       font-size: 4rem;
       margin: 1rem 0;
       text-align: center;
     }
 
     &-line {
-      border-top: 0.4rem solid $default-shade;
+      border-top: 0.4rem solid variables.$default-shade;
       display: block;
       margin: 0 auto 3rem;
       width: 4rem;
@@ -18,7 +20,7 @@
 
   &-clouds {
     text-align: center;
-    font-family: $sans-serif;
+    font-family: variables.$sans-serif;
 
     a {
       display: inline-block;
@@ -26,7 +28,7 @@
       padding: 0.2rem 0.5rem;
       background: rgba(0, 0, 0, 0.05);
       border-radius: 5px;
-      color: $default-color;
+      color: variables.$default-color;
       text-decoration: none;
 
       &:hover,
@@ -46,8 +48,8 @@
       margin: 2rem 0 0.5rem;
 
       a {
-        font-family: $sans-serif;
-        color: $default-color;
+        font-family: variables.$sans-serif;
+        color: variables.$default-color;
       }
     }
   }
@@ -58,7 +60,7 @@
     padding: 5px 0;
 
     &-title {
-      color: $default-color;
+      color: variables.$default-color;
       text-decoration: none;
       white-space: nowrap;
       overflow: hidden;
@@ -66,14 +68,14 @@
     }
 
     &-line {
-      @include transition(all 0.3s ease-out);
-      border-top: 0.1rem solid $default-shade;
+      @include variables.transition(all 0.3s ease-out);
+      border-top: 0.1rem solid variables.$default-shade;
       display: block;
       width: 0;
     }
 
     &-meta {
-      color: $default-shade;
+      color: variables.$default-shade;
       text-align: right;
       white-space: nowrap;
     }
@@ -85,7 +87,7 @@
       }
 
       .tags-post-meta {
-        color: $default-shade;
+        color: variables.$default-shade;
       }
     }
   }

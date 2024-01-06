@@ -1,4 +1,6 @@
-<p align="right">
+<h1 align="center">🦎 Mabuya</h1>
+
+<p align="center">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/repo-size/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/mabuya" />
@@ -6,13 +8,13 @@
   <img src="https://img.shields.io/website/https/semanticdata.github.io/mabuya.svg" />
 </p>
 
-# Mabuya
+## Introduction
 
 Mabuya is a minimal Zola theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project.
 
 Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
 
-## Introduction to Mabuya
+## Start of Mabuya
 
 While searching for themes, I came across [Zola Tale]. Sadly, the project's last update was on Dec 4, 2021. Shortly after, I decided to fork the project and add my own touches to it.
 
@@ -35,39 +37,6 @@ While working on the theme, I have added new functionality and many quality of l
 - Addressed Issue [#4](https://github.com/aaranxu/tale-zola/issues/4).
 - Optimized for speed and Accesibility.
 - And many other small improvements.
-
-## Performance Tests
-
-I put all my themes and website through Lighthouse and GTMetrix tezts. You can find a summary of the results bellow.
-
-### Lighthouse Scores
-
-Perfect [Lighthouse](https://pagespeed.web.dev/) scores in all categories.
-
-#### Mobile
-
-- [ ] Performance: 94 / 100
-- [x] Accesibility: 100 /100
-- [x] Best Practices: 100 /100
-- [x] SEO: 100 /100
-
-#### Desktop
-
-- [x] Performance: 100 / 100
-- [x] Accesibility: 100 /100
-- [x] Best Practices: 100 /100
-- [x] SEO: 100 /100
-
-### GTMetrix Scores
-
-Aiming for high scores in [GTMetrix](https://gtmetrix.com/).
-
-- Performance: 100%
-- Structure: 100%
-- Total Website size: 33.4KB compressed, 48.2KB uncompressed.
-- Largest Contentful Paint:[^2] 238ms.
-- Total Blocking Time:[^3] 0ms.
-- Cumulative Layout Shift:[^4] 0.
 
 ## Screenshots
 
@@ -130,6 +99,3 @@ The icons used throughout the site are kindly provided by [UXWing](https://uxwin
 Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. That said, some acknowledgement would be well received.
 
 [^1]: *Mabuya hispaniolae*'s conservation status is *Critically endangered, possibly extinct*.  
-[^2]: For a good user experience, aim for an LCP of 1.2 seconds or less.  
-[^3]: For a good user experience, aim for a TBT of 150 milliseconds or less.  
-[^4]: For a good user experience, aim for a CLS score of 0.1 or less.  
