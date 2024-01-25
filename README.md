@@ -8,21 +8,45 @@
   <img src="https://img.shields.io/website/https/semanticdata.github.io/mabuya.svg" />
 </p>
 
-## Introduction
+## Overview
 
 Mabuya is a minimal [Zola](https://www.getzola.org/) theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project.
 
 Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
 
-### Screenshots
+## Table of Contents
+
+<details>
+<summary>Show/Hide</summary>
+
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Screenshots](#screenshots)
+- [Start of Mabuya](#start-of-mabuya)
+- [Where The Name Comes From](#where-the-name-comes-from)
+- [Features and Improvements](#features-and-improvements)
+- [Running the Site Locally](#running-the-site-locally)
+  - [Requirements](#requirements)
+  - [Quick Start](#quick-start)
+  - [Useful Commands](#useful-commands)
+- [Customization](#customization)
+  - [Custom CSS Styles](#custom-css-styles)
+- [Reporting Issues](#reporting-issues)
+- [Contributing](#contributing)
+- [Acknowledgements and Attributions](#acknowledgements-and-attributions)
+- [License](#license)
+
+</details>
+
+## Screenshots
 
 <img alt="Website Screenshot" src="screenshot.png" width="720px" />
 
-### Start of Mabuya
+## Start of Mabuya
 
 While searching for themes, I came across [Zola Tale](https://github.com/aaranxu/tale-zola). Sadly, the project's last update was on Dec 4, 2021. Shortly after, I decided to fork the project and add my own touches to it.
 
-### Where The Name Comes From
+## Where The Name Comes From
 
 The name Mabuya comes from the [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), a possibly extinct[^1] species of skink endemic to the Dominican Republic, my home country.
 
@@ -94,18 +118,16 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 
 We'd love your help! Please see [CONTRIBUTING](./CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
 
-Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before conttributing.
+Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before contributing.
 
 ## Acknowledgements and Attributions
 
-Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), which is a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale)—a now Archived repository.
+Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), which is a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale) which is now archived.
 
 The icons used throughout the site are kindly provided by [UXWing](https://uxwing.com/license/). Read their [license](https://uxwing.com/license/).
 
-Other icons used come from [Remix Icon](https://remixicon.com/). Check out their [license](https://remixicon.com/license).
-
 ## License
 
-Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you like. That said, some acknowledgement would be well received.
+Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.
 
 [^1]: *Mabuya hispaniolae*'s conservation status is *Critically endangered, possibly extinct*.  
