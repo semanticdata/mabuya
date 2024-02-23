@@ -1,14 +1,12 @@
-<h1 align="center">🦎 Mabuya</h1>
+# 🦎 Mabuya
 
-<p align="center">
+<p align="">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/repo-size/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/mabuya" />
   <img src="https://img.shields.io/website/https/semanticdata.github.io/mabuya.svg" />
 </p>
-
-## Overview
 
 Mabuya is a minimal [Zola](https://www.getzola.org/) theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project.
 

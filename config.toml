@@ -1,4 +1,4 @@
-base_url = "https://miguelpimentel.do/mabuya/"
+base_url = "https://semanticdata.github.io/mabuya/"
 title = "Mabuya"
 description = "Mabuya is a minimal Zola theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project."
 
@@ -29,4 +29,4 @@ name = "Tags"
 url = "tags"
 
 [extra.footer]
-info = "Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/semanticdata/mabuya\">Mabuya</a>."
+info = 'Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/semanticdata/mabuya\">Mabuya</a>.'
