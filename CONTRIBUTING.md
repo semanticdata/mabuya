@@ -1,4 +1,4 @@
-# Welcome to [this-repo] Contributing Guide
+# Welcome to Mabuya's Contributing Guide
 
 Read our [Code of Conduct](CODE_OF_CONDUCT) to keep our community approachable and respectable.
 
