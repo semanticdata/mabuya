@@ -14,37 +14,25 @@ Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
 
 ## Table of Contents
 
-<details>
-<summary>Show/Hide</summary>
+- [🦎 Mabuya](#-mabuya)
+  - [Table of Contents](#table-of-contents)
+  - [Screenshot](#screenshot)
+  - [Background](#background)
+  - [Features and Improvements](#features-and-improvements)
+  - [Running the Site Locally](#running-the-site-locally)
+  - [Customization](#customization)
+  - [Reporting Issues](#reporting-issues)
+  - [Contributing](#contributing)
+  - [Acknowledgements and Attributions](#acknowledgements-and-attributions)
+  - [License](#license)
 
-- [Overview](#overview)
-- [Table of Contents](#table-of-contents)
-- [Screenshots](#screenshots)
-- [Start of Mabuya](#start-of-mabuya)
-- [Where The Name Comes From](#where-the-name-comes-from)
-- [Features and Improvements](#features-and-improvements)
-- [Running the Site Locally](#running-the-site-locally)
-  - [Requirements](#requirements)
-  - [Quick Start](#quick-start)
-  - [Useful Commands](#useful-commands)
-- [Customization](#customization)
-  - [Custom CSS Styles](#custom-css-styles)
-- [Reporting Issues](#reporting-issues)
-- [Contributing](#contributing)
-- [Acknowledgements and Attributions](#acknowledgements-and-attributions)
-- [License](#license)
-
-</details>
-
-## Screenshots
+## Screenshot
 
 <img alt="Website Screenshot" src="screenshot.png" width="720px" />
 
-## Start of Mabuya
+## Background
 
 While searching for themes, I came across [Zola Tale](https://github.com/aaranxu/tale-zola). Sadly, the project's last update was on Dec 4, 2021. Shortly after, I decided to fork the project and add my own touches to it.
-
-## Where The Name Comes From
 
 The name Mabuya comes from the [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), a possibly extinct[^1] species of skink endemic to the Dominican Republic, my home country.
 
@@ -126,6 +114,6 @@ The icons used throughout the site are kindly provided by [UXWing](https://uxwin
 
 ## License
 
-Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.
+Source code in this repository is available under the [MIT License](LICENSE).
 
 [^1]: *Mabuya hispaniolae*'s conservation status is *Critically endangered, possibly extinct*.  

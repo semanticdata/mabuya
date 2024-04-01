@@ -1,4 +1,4 @@
-name: Zola - Build only
+name: Build only Zola site
 
 on:
   # push:
