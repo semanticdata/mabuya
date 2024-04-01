@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/website/https/semanticdata.github.io/mabuya.svg" />
 </p>
 
-Mabuya is a minimal [Zola](https://www.getzola.org/) theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project.
+[Mabuya](https://semanticdata.github.io/mabuya/) is a minimal [Zola](https://www.getzola.org/) theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project.
 
 Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
 
