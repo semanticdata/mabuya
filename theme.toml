@@ -3,7 +3,7 @@ description = "🦎 Mabuya—a minimal Zola theme with the goal of helping you b
 license = "MIT"
 homepage = "https://github.com/semanticdata/mabuya"
 min_version = "0.18.0"
-demo = "https://semanticdata.github.io/mabuya"
+demo = "https://mabuya.vercel.app/"
 
 [author]
 name = "Miguel Pimentel"
