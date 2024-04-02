@@ -5,12 +5,12 @@
   <img src="https://img.shields.io/github/repo-size/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/mabuya" />
-  <img src="https://img.shields.io/website/https/semanticdata.github.io/mabuya.svg" />
+  <img src="https://img.shields.io/website/https/mabuya.vercel.app.svg" />
 </p>
 
-[Mabuya](https://semanticdata.github.io/mabuya/) is a minimal [Zola](https://www.getzola.org/) theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project.
+[Mabuya](https://mabuya.vercel.app/) is a minimal [Zola](https://www.getzola.org/) theme focused on helping you build an elegant, fast, lightweight, and SEO-ready blog. Put your work front and center with Mabuya as the base of your project.
 
-Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
+Check out the live [demo](https://mabuya.vercel.app/) of the theme.
 
 ## Table of Contents
 
