@@ -23,7 +23,7 @@ Check out the live [demo](https://semanticdata.github.io/mabuya/) of the theme.
   - [Customization](#customization)
   - [Reporting Issues](#reporting-issues)
   - [Contributing](#contributing)
-  - [Acknowledgements and Attributions](#acknowledgements-and-attributions)
+  - [Attributions](#attributions)
   - [License](#license)
 
 ## Screenshot
@@ -106,7 +106,7 @@ We'd love your help! Please see [CONTRIBUTING](./CONTRIBUTING.md) to learn about
 
 Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before contributing.
 
-## Acknowledgements and Attributions
+## Attributions
 
 Mabuya is a fork of [Tale](https://github.com/aaranxu/tale-zola), which itself is a port of the Jekyll theme [Tale](https://github.com/chesterhow/tale) which is now archived.
 
