@@ -1,17 +1,33 @@
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ get_url(path='main.css') | safe }}">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{ get_url(path='main.css') | safe }}" />
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-  <meta name="description" itemprop="about" content="{{config.description}}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path='assets/favicon-32x32.png') | safe }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='assets/favicon-16x16.png') | safe }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='assets/apple-touch-icon.png') | safe }}">
-  {% if config.generate_feed %}
-  <link type="application/atom+xml" rel="alternate"
-    href="{{ get_url(path=config.feed_filename | default(value='atom.xml')) | safe }}"
-    title="{{ config.title | default(value=" Mabuya") }}" />
-  {% endif %}
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" />
+  <meta name="description" itemprop="about" content="{{config.description}}" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ get_url(path='assets/favicon-32x32.png') | safe }}"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{ get_url(path='assets/favicon-16x16.png') | safe }}"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{ get_url(path='assets/apple-touch-icon.png') | safe }}"
+  />
+  {% if config.generate_feed %} <link type="application/atom+xml"
+  rel="alternate" href="{{ get_url(path=config.feed_filename |
+  default(value='atom.xml')) | safe }}" title="{{ config.title | default(value="
+  Mabuya") }}" /> {% endif %}
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap"
+  />
 </head>

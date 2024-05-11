@@ -2,16 +2,13 @@
 
 <nav class="nav">
   <section class="nav-container">
-
     <a href="{{ config.base_url | safe }}">
       <h2 class="nav-title">{{ config.title | default(value="Mabuya")}}</h2>
     </a>
     <ul>
-      {% if config.extra.menu %}
-      {% for menu in config.extra.menu %}
+      {% if config.extra.menu %} {% for menu in config.extra.menu %}
       <li><a href="{{ get_url(path=menu.url) | safe }}">{{ menu.name }}</a></li>
-      {% endfor %}
-      {% else %}
+      {% endfor %} {% else %}
       <li><a href="{{ config.base_url | safe }}">Posts</a></li>
       <li><a href="{{ get_url(path='tags') | safe }}">Tags</a></li>
       <li><a href="{{ get_url(path='about') | safe }}">About</a></li>

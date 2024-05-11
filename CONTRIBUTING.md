@@ -1,45 +1,39 @@
-# Welcome to Mabuya's Contributing Guide
+# How to Contribute to Mabuya
 
-Read our [Code of Conduct](CODE_OF_CONDUCT) to keep our community approachable and respectable.
+Before contributing to Mabuya, please read our [Code of Conduct](.github/CODE_OF_CONDUCT.md).
 
-In this guide you will get an overview of the contribution workflow from opening an issue, creating a PR, reviewing, and merging the PR.
+Here's a step-by-step guide to contributing to Mabuya:
 
-## New Contributor Guide
+### 1. Find an issue to work on
 
-To get an overview of the project, read the [README](README.md). Here are some resources to help you get started with open source contributions:
+- [Search for issues](https://github.com/semanticdata/mabuya/issues) to find one that interests you.
+- If there's not an issue yet, consider [creating one](https://github.com/semanticdata/mabuya/issues/new/choose).
 
-- [Finding ways to contribute to open source on GitHub](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github)
-- [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
-- [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
-- [Collaborating with pull requests](https://docs.github.com/en/github/collaborating-with-pull-requests)
+### 2. Fork the repo
 
-### Issues
+Fork the Mabuya repository so you have a copy of the codebase to work on.
 
-#### Create a New Issue
+### 3. Make your changes
 
-If you spot a problem with the docs, [search if an issue already exists](https://docs.github.com/en/github/searching-for-information-on-github/searching-on-github/searching-issues-and-pull-requests#search-by-the-title-body-or-comments). If a related issue doesn't exist, you can open a new issue.
+Make the changes to the codebase, committing locally to your fork.
 
-#### Solve an Issue
+### 4. Self-review
 
-Scan through our existing issues to find one that interests you. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix/change.
+Before submitting a pull request, review your changes to make sure your changes are of high quality and will be useful to other users.
 
-### Commit Your Update
+### 5. Submit a pull request
 
-Commit the changes once you are happy with them. Don't forget to self-review your work to speed up the review process.
+- [Create a pull request](https://github.com/semanticdata/mabuya/compare) from your fork to the main Mabuya repository.
+- Enable the checkbox to allow the Mabuya maintainers to make changes to your branch.
 
-### Pull Request
+Once you submit your pull request, a member of the Mabuya team will review your changes. We may ask questions or request additional information.
 
-When you're finished with the changes, create a pull request, also known as a PR.
+### 6. Make changes based on feedback
 
-- Don't forget to link the PR to the issue if you are solving one.
-- Enable the checkbox to allow maintainer edits so the branch can be updated for a merge.
-Once you submit your PR, a Docs team member will review your proposal. We may ask questions or request additional information.
-- We may ask for changes to be made before a PR can be merged, either using suggested changes or pull request comments. You can apply suggested changes directly through the UI. You can make any other changes in your fork, then commit them to your branch.
-- As you update your PR and apply changes, mark each conversation as resolved.
-- If you run into any merge issues, checkout this [git tutorial](https://github.com/skills/resolve-merge-conflicts) to help you resolve merge conflicts and other issues.
+If the maintainers request changes, make the required updates, committing locally to your fork. Then, push your changes to your fork. The pull request will update automatically.
 
-### Your PR is Merged
+### 7. Merge your changes
 
-Once your PR is merged, your contributions will be publicly visible on the Contributors page.
+Once your pull request is approved, a maintainer will merge your changes into the main Mabuya repository. Congratulations, you're a contributor! Your changes will be publicly visible on the Contributors page.
 
-Now you are part of the community.
+We hope you'll continue to contribute to Mabuya!

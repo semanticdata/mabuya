@@ -1,24 +1,24 @@
----
 name: Actionable Item
-about: 'An actionable item has been identified.'
+about: An actionable item has been identified.
 title: ''
-labels: ''
-assignees: 'semanticdata'
+labels: actionable
+assignees: semanticdata
+
 ---
 
-**Describe the actionable item**
-A clear and concise description of what the actionable item is.
+**Description of the actionable item**
 
-**Steps To Follow?**
-Are there any obvious steps to follow?
+Describe the actionable item here.
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Steps to follow**
+
+1. Are there any obvious steps to follow?
+2. If so, please list them here:
 
 **Expected outcome**
-A clear and concise description of what your expected outcome is.
+
+What is the expected outcome of following the steps above?
 
 **Additional context**
-Add any other context about the actionable item.
+
+Add any other context about the actionable item here.

@@ -1,37 +1,23 @@
 name: Build only Zola site
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  pull_request:
   workflow_dispatch:
+  pull_request:
 
 permissions:
   contents: read
-  pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
 
 jobs:
   build-only:
     runs-on: ubuntu-latest
-    # if: github.ref != 'refs/heads/main'
     steps:
-      - name: Checkout main
+      - name: Checkout
         uses: actions/checkout@v4
       - name: Install Zola
         uses: taiki-e/install-action@zola
       - name: Build Zola
-        run: zola check
+        run: zola check --drafts
         env:
           BUILD_ONLY: true
-          BUILD_FLAGS: --drafts
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

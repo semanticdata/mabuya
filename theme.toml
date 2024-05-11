@@ -1,5 +1,5 @@
 name = "Mabuya"
-description = "🦎 Mabuya—a minimal Zola theme with the goal of helping you build a light and SEO-ready blog."
+description = "🦎 A minimal Zola theme for building light and SEO-ready blogs."
 license = "MIT"
 homepage = "https://github.com/semanticdata/mabuya"
 min_version = "0.18.0"
@@ -10,6 +10,7 @@ name = "Miguel Pimentel"
 homepage = "https://miguelpimentel.do/"
 
 [original]
-author = "chesterhow"
+author = "Chester How"
 homepage = "https://chester.how/"
 repo = "https://github.com/chesterhow/tale"
+

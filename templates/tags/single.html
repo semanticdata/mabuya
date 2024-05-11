@@ -1,6 +1,4 @@
-{% extends "base.html" %}
-
-{% block content %}
+{% extends "base.html" %} {% block content %}
 <section class="tags">
   <section class="tags-header">
     <h2 class="tags-header-title">#{{ term.name }}</h2>
@@ -9,8 +7,6 @@
 </section>
 
 <section class="catalogue">
-  {% for page in term.pages -%}
-  {{ macros::page(page=page) }}
-  {%- endfor %}
+  {% for page in term.pages -%} {{ macros::page(page=page) }} {%- endfor %}
 </section>
 {% endblock content %}

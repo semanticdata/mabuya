@@ -1,11 +1,10 @@
-{% extends 'base.html' %}
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 <section class="notfound">
-	<h1 class="notfound-error">404: Page not found</h1>
-	<section class="notfound-line"></section>
-	<p class="notfound-message">Oops! We can't seem to find the page you are looking for. Let's <a
-			href="{{ config.base_url | safe }}">head back home</a>.
-	</p>
+  <h1 class="notfound-error">404: Page not found</h1>
+  <section class="notfound-line"></section>
+  <p class="notfound-message"
+    >Oops! We can't seem to find the page you are looking for. Let's
+    <a href="{{ config.base_url | safe }}">head back home</a>.
+  </p>
 </section>
 {% endblock content %}

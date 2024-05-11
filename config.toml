@@ -6,9 +6,7 @@ compile_sass = true
 generate_feed = true
 minify_html = true
 build_search_index = false
-taxonomies = [
-  { name = "tags", feed = true },
-]
+taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
 highlight_code = true
@@ -18,7 +16,7 @@ highlight_code = true
 author = "Miguel Pimentel"
 github = "https://github.com/semanticdata"
 email = "contact@miguelpimentel.do"
-timeformat = "%B %e, %Y" # e.g. June 14, 2021
+timeformat = "%B %e, %Y"                   # e.g. June 14, 2021
 
 [[extra.menu]]
 name = "Archive"
@@ -29,4 +27,4 @@ name = "Tags"
 url = "tags"
 
 [extra.footer]
-info = 'Powered by <a href=\"https://www.getzola.org\">Zola</a> and <a href=\"https://github.com/semanticdata/mabuya\">Mabuya</a>.'
+info = 'Powered by [Zola](https://www.getzola.org) and [Mabuya](https://github.com/semanticdata/mabuya).'

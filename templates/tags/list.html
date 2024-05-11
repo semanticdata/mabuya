@@ -1,42 +1,56 @@
-{% extends "base.html" %}
-
-{% block content %}
+{% extends "base.html" %} {% block content %}
 <section class="tags">
-	<section class="tags-header">
-		<h2 class="tags-header-title">Tags</h2>
-		<section class="tags-header-line"></section>
-	</section>
-	<section class="tags-clouds">
-		{% for term in terms -%}
-		<a href="#{{ term.name }}">#{{ term.name }}</a>
-		{%- endfor %}
-	</section>
+  <section class="tags-header">
+    <h2 class="tags-header-title">Tags</h2>
+    <section class="tags-header-line"></section>
+  </section>
+  <section class="tags-clouds">
+    {% for term in terms -%}
+    <a href="#{{ term.name }}">#{{ term.name }}</a>
+    {%- endfor %}
+  </section>
 
-	{% for term in terms -%}
-	<section class="tags-item" id="{{ term.name }}">
-		<svg class="tags-item-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-			fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-			<path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
-			<line x1="7" y1="7" x2="7.01" y2="7"></line>
-		</svg>
-		<h2 class="tags-item-label"><a href="{{ term.permalink | safe }}">#{{ term.name }}</a></h2>
+  {% for term in terms -%}
+  <section class="tags-item" id="{{ term.name }}">
+    <svg
+      class="tags-item-icon"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path
+        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
+      ></path>
+      <line x1="7" y1="7" x2="7.01" y2="7"></line>
+    </svg>
+    <h2 class="tags-item-label"
+      ><a href="{{ term.permalink | safe }}">#{{ term.name }}</a></h2
+    >
 
-		{% for page in term.pages -%}
-		<a class="tags-post" href="{{ page.permalink | safe }}">
-			<section>
-				<span class="tags-post-title">{{ page.title | truncate(length=30) }}</span>
-				{# <span class="tags-post-title">{{ page.title }}</span> #}
-				<section class="tags-post-line"></section>
-			</section>
-			<span class="tags-post-meta">
-				<time datetime="{{ page.date }}">
-					{{ page.date | date(format=config.extra.timeformat |
-					default(value="%B %e, %Y")) }}
-				</time>
-			</span>
-		</a>
-		{% endfor -%}
-	</section>
-	{% endfor -%}
+    {% for page in term.pages -%}
+    <a class="tags-post" href="{{ page.permalink | safe }}">
+      <section>
+        <span class="tags-post-title"
+          >{{ page.title | truncate(length=30) }}</span
+        >
+        {# <span class="tags-post-title">{{ page.title }}</span> #}
+        <section class="tags-post-line"></section>
+      </section>
+      <span class="tags-post-meta">
+        <time datetime="{{ page.date }}">
+          {{ page.date | date(format=config.extra.timeformat | default(value="%B
+          %e, %Y")) }}
+        </time>
+      </span>
+    </a>
+    {% endfor -%}
+  </section>
+  {% endfor -%}
 </section>
 {% endblock content %}

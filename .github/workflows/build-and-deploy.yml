@@ -2,10 +2,8 @@ name: Build and Deploy Zola site
 
 on:
   workflow_dispatch:
-  # pull_request:
   push:
-    branches:
-      - main
+    branches: [main]
 
 permissions:
   contents: read
@@ -16,27 +14,22 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    # if: github.ref != 'refs/heads/main'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Zola
         uses: taiki-e/install-action@zola
-      - name: Build Zola
+      - name: Build site
         run: zola build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Upload artifact
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: public
 
   deploy:
     runs-on: ubuntu-latest
