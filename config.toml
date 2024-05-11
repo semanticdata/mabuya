@@ -27,4 +27,4 @@ name = "Tags"
 url = "tags"
 
 [extra.footer]
-info = 'Powered by [Zola](https://www.getzola.org) and [Mabuya](https://github.com/semanticdata/mabuya).'
+info = 'Powered by <a href="https://www.getzola.org" target="_blank">Zola</a> and <a href="https://github.com/semanticdata/mabuya">Mabuya</a>.'
