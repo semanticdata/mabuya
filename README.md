@@ -1,5 +1,3 @@
-<!-- # 🦎 Mabuya -->
-
 <div align="center">
 <h1>🦎 Mabuya</h1>
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/mabuya" />
@@ -8,16 +6,19 @@
   <img src="https://img.shields.io/github/last-commit/semanticdata/mabuya" />
   <img src="https://img.shields.io/website/https/mabuya.vercel.app.svg" />
 </div>
+<br>
 
-[Mabuya](https://mabuya.vercel.app/) is a minimal [Zola](https://www.getzola.org/) theme for building light and SEO-ready blogs. Put your work front and center with Mabuya as the base of your project.
+<div align="center">
 
-Check out the [demo](https://mabuya.vercel.app/).
+<a href="https://mabuya.vercel.app/" target="_blank">Mabuya</a> is a minimal <a href="https://www.getzola.org/" target="_blank">Zola</a> theme for building light and SEO-ready blogs.  
+Put your work front and center with Mabuya as the base of your project.
 
-## 📷 Screenshot
+Check out the <a href="https://mabuya.vercel.app/">demo</a>.
 
-<img alt="Website Screenshot" src="screenshot-alt.png" width="720px" />
+<img alt="Mabuya screenshot" src="screenshot.png" />
+</div>
 
-## ℹ Background
+## ⓘ Background
 
 While searching for themes, I came across [Zola Tale](https://github.com/aaranxu/tale-zola). Sadly, the project's last update was on Dec, 2021. Shortly after, I decided to fork the project and add my own touches to it.
 
@@ -60,29 +61,22 @@ For more detailed instructions, visit the [Documentation](https://www.getzola.or
 
 ## 🎨 Customization
 
-You can changed the configuration, templates and content yourself. Refer to the `config.toml`, and templates files for ideas. In most cases you only need to modify the contents of `config.toml` to customize the appearance of your blog. Make sure to visit tyhe [Zola Documentation](https://www.getzola.org/documentation/getting-started/overview/).
+You can change the configuration, templates and content yourself. Refer to the [config.toml](config.toml), and [templates](templates) for ideas. In most cases you only need to modify the contents of [config.toml](config.toml) to customize the appearance of your blog. Make sure to visit the Zola [Documentation](https://www.getzola.org/documentation/getting-started/overview/).
 
-Adding custom CSS is as easy as adding your styles to `sass/_custom.scss`. This is made possible because SCSS files are backwards compatible with CSS. This means you can type normal CSS code into a SCSS file and it will be valid.
+Adding custom CSS is as easy as adding your styles to [sass/_custom.scss](sass/_custom.scss). This is made possible because SCSS files are backwards compatible with CSS. This means you can type normal CSS code into a SCSS file and it will be valid.
 
 ## 🚩 Reporting Issues
 
-We use GitHub Issues as the official bug tracker for **Mabuya**. Please
-search [existing issues](https://github.com/semanticdata/mabuya/issues). It’s
-possible someone has already reported the same problem.
-
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/mabuya/issues/new).
+We use GitHub Issues as the official bug tracker for **Mabuya**. Please search [existing issues](https://github.com/semanticdata/mabuya/issues). It’s possible someone has already reported the same problem. If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/mabuya/issues/new).
 
 ## 🤝 Contributing
 
-We'd love your help! Please see [CONTRIBUTING](./CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
-
-Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before contributing.
+We'd love your help! Please see [CONTRIBUTING](./CONTRIBUTING.md) and our [Code of Conduct](.github/CODE_OF_CONDUCT.md) before contributing.
 
 ## 💜 Acknowledgements
 
-Mabuya is a *fork* of [Tale](https://github.com/aaranxu/tale-zola), which itself is a *port* of the Jekyll theme [Tale](https://github.com/chesterhow/tale) which is now archived.
-
-The icons used throughout the site are kindly provided by [UXWing](https://uxwing.com/license/). Read their [license](https://uxwing.com/license/).
+- Mabuya is a *fork* of [Tale](https://github.com/aaranxu/tale-zola), which itself is a *port* of the Jekyll theme [Tale](https://github.com/chesterhow/tale) which is now archived.
+- The icons used throughout the site are kindly provided by [UXWing](https://uxwing.com/license/). Read their [license](https://uxwing.com/license/).
 
 ## ©️ License
 
