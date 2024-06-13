@@ -6,15 +6,19 @@
   <img src="https://img.shields.io/github/last-commit/semanticdata/mabuya" />
   <img src="https://img.shields.io/website/https/mabuya.vercel.app.svg" />
 </div>
-<br>
+<br />
 
 <div align="center">
 
-<a href="https://mabuya.vercel.app/" target="_blank">Mabuya</a> is a minimal <a href="https://www.getzola.org/" target="_blank">Zola</a> theme for building light and SEO-ready blogs.  
+[Mabuya](https://mabuya.vercel.app/) is a minimal [Zola](https://www.getzola.org) theme for building light and SEO-ready blogs.  
 Put your work front and center with Mabuya as the base of your project.
 
-Check out the <a href="https://mabuya.vercel.app/">demo</a>.
+<a href="https://mabuya.vercel.app/">
+<img src="https://img.shields.io/badge/Check out the Demo-F0E68C?style=for-the-badge&link=https://semanticdata.github.io/nullboard/" alt="demo" height="32px"; /></a>
+</div>
 
+<br />
+<div align="center">
 <img alt="Mabuya screenshot" src="screenshot.png" />
 </div>
 
@@ -44,17 +48,22 @@ While working on the theme, I have added new functionality and made many quality
 
 Before using the theme, you need to install [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ v0.18.0.
 
+### 1. Clone the repo
+
 ```sh
-# 1. Clone the repo
 git clone git@github.com:semanticdata/mabuya.git
+```
 
-# 2. Change directory into clone
+### 2. Change directory into clone
+
+```sh
 cd mabuya
+```
 
-# 3. Serve the site locally
+### 3. Serve the site locally
+
+```sh
 zola serve
-
-# 4. Open http://127.0.0.1:1111/ in the browser
 ```
 
 For more detailed instructions, visit the [Documentation](https://www.getzola.org/documentation/themes/installing-and-using-themes/) page about installing and using themes.
@@ -75,8 +84,9 @@ We'd love your help! Please see [CONTRIBUTING](./CONTRIBUTING.md) and our [Code 
 
 ## 💜 Acknowledgements
 
-- Mabuya is a *fork* of [Tale](https://github.com/aaranxu/tale-zola), which itself is a *port* of the Jekyll theme [Tale](https://github.com/chesterhow/tale) which is now archived.
-- The icons used throughout the site are kindly provided by [UXWing](https://uxwing.com/license/). Read their [license](https://uxwing.com/license/).
+Mabuya is a *fork* of [Tale](https://github.com/aaranxu/tale-zola), which itself is a *port* of the Jekyll theme [Tale](https://github.com/chesterhow/tale) which is now archived.
+
+The icons used throughout the site are kindly provided by [UXWing](https://uxwing.com/license/). Read their [license](https://uxwing.com/license/).
 
 ## ©️ License
 
