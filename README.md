@@ -74,6 +74,44 @@ You can change the configuration, templates and content yourself. Refer to the [
 
 Adding custom CSS is as easy as adding your styles to [sass/_custom.scss](sass/_custom.scss). This is made possible because SCSS files are backwards compatible with CSS. This means you can type normal CSS code into a SCSS file and it will be valid.
 
+## 🔄 Workflows
+
+### 🔨 Build only
+
+```yml
+steps:
+  - name: Checkout
+    uses: actions/checkout@v4
+  - name: Install Zola
+    uses: taiki-e/install-action@zola
+  - name: Build Zola
+    run: zola check --drafts
+    env:
+      BUILD_ONLY: true
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+### 📢 Deployment
+
+```yml
+steps:
+  - name: Checkout
+    uses: actions/checkout@v4
+  - name: Install Zola
+    uses: taiki-e/install-action@zola
+  - name: Build site
+    run: zola build
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  - name: Upload site artifact
+    uses: actions/upload-pages-artifact@v3
+    with:
+      path: public
+  - name: Deploy to GitHub Pages
+    id: deployment
+    uses: actions/deploy-pages@v4
+```
+
 ## 🚩 Reporting Issues
 
 We use GitHub Issues as the official bug tracker for **Mabuya**. Please search [existing issues](https://github.com/semanticdata/mabuya/issues). It’s possible someone has already reported the same problem. If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/mabuya/issues/new).
