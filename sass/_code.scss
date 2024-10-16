@@ -9,29 +9,59 @@ code {
     background-color: variables.$grey;
     border-radius: 3px;
     color: variables.$code-color;
-    font-size: 85%;
+    // font-size: 85%;
     padding: 0.25em 0.5em;
 }
 
 pre {
     margin: 0 0 1rem;
     overflow: auto;
+
+    padding: 0.25rem 0.5rem;
+    overflow: auto;
+    border-radius: 5px;
 }
 
 pre code {
     background-color: transparent;
     color: inherit;
-    font-size: 100%;
     padding: 0;
-    font: variables.$code-font;
+    font: variables.$monospaced;
+    border: 0;
+    line-height: 1;
+}
+
+pre[data-linenos] {
+    padding: 1rem 0;
+    padding: 0;
+}
+pre table td {
+    padding: 0 0.25rem;
+    color: white;
+    border: 0;
+    border-right: 1px solid variables.$default-tint;
+}
+/* The line number cells */
+pre table td:nth-of-type(1) {
+    text-align: center;
+    user-select: none;
+}
+pre mark {
+    display: block;
+    background-color: rgba(254, 252, 232, 0.9);
+}
+pre table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
 }
 
 .highlight {
     background-color: variables.$grey;
     border-radius: 3px;
-    line-height: 1.4;
     margin: 0 0 1rem;
-    padding: 1rem;
+    // line-height: 1.2;
+    // padding: 1rem;
 
     pre {
         margin-bottom: 0;
@@ -47,39 +77,4 @@ pre code {
         -moz-user-select: none;
         user-select: none;
     }
-}
-
-pre {
-    padding: 1rem;
-    overflow: auto;
-}
-/* The line numbers already provide some kind of left/right padding */
-pre[data-linenos] {
-    padding: 1rem 0;
-    padding: 0;
-}
-pre table td {
-    padding: 0 0.25rem;
-    color: white;
-    // border: 0;
-}
-/* The line number cells */
-pre table td:nth-of-type(1) {
-    text-align: center;
-    user-select: none;
-}
-pre mark {
-    /* If you want your highlights to take the full width */
-    display: block;
-    /* The default background colour of a mark is bright yellow */
-    background-color: rgba(254, 252, 232, 0.9);
-}
-pre table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 0;
-}
-
-pre code {
-    border: 0;
 }
