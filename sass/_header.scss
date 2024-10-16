@@ -11,13 +11,17 @@ header {
 
     @media (max-width: 600px) {
         flex-direction: column;
-        padding-block-end: 1rem;
+        padding-block-end: 0.5rem;
     }
 }
 
 .nav-title {
     @include variables.transition(all 0.2s ease-out);
     color: variables.$default-color;
+
+    h2 {
+        margin-bottom: 0.5rem;
+    }
 
     &:hover,
     &:focus {
