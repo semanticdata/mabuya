@@ -1,27 +1,24 @@
 @use "variables";
 
 * {
-  // @include box-sizing;
+  @include variables.box-sizing;
   line-height: 1.5;
 }
 
 html {
   color: variables.$default-color;
   background-color: variables.$background-color;
-}
-
-a {
-  color: var(--link-color);
-}
-
-html {
   font-family: variables.$serif-primary;
-  font-size: 14px;
-  overflow-y: scroll;
+  // overflow-y: scroll;
+  // font-size: 14px;
 
-  @media (min-width: 600px) {
-    font-size: 16px;
-  }
+  // @media (min-width: 600px) {
+  //   font-size: 16px;
+  // }
+}
+
+body {
+  margin: 0;
 }
 
 h1,
@@ -36,7 +33,13 @@ h6 {
 }
 
 a {
+  color: var(--link-color);
   text-decoration: none;
+}
+
+::selection {
+  background: rebeccapurple;
+  color: white;
 }
 
 blockquote {
@@ -90,14 +93,15 @@ footer,
   display: block;
   margin: 0 auto;
   max-width: 800px;
-  width: 80%;
+  // width: 80%;
 }
 
 @media (max-width: 600px) {
   main,
   footer,
   .nav-container {
-    width: 85%;
+    padding-inline: 1rem;
+    // width: 85%;
   }
 }
 
