@@ -97,60 +97,12 @@ footer,
   }
 }
 
-pre,
-code {
-  font-family: variables.$monospaced;
-}
-
-code {
-  background-color: variables.$grey;
-  border-radius: 3px;
-  color: variables.$code-color;
-  font-size: 85%;
-  padding: 0.25em 0.5em;
-}
-
-pre {
-  margin: 0 0 1rem;
-  overflow: auto;
-}
-
-pre code {
-  background-color: transparent;
-  color: inherit;
-  font-size: 100%;
-  padding: 0;
-  font: variables.$code-font;
-}
-
-.highlight {
-  background-color: variables.$grey;
-  border-radius: 3px;
-  line-height: 1.4;
-  margin: 0 0 1rem;
-  padding: 1rem;
-
-  pre {
-    margin-bottom: 0;
-    overflow-x: auto;
-  }
-
-  .lineno {
-    color: variables.$default-tint;
-    display: inline-block; // Ensures the null space also isn't selectable
-    padding: 0 0.75rem 0 0.25rem;
-    // Make sure numbers aren't selectable
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-}
-
 // Justify text content on sections and index
 a div p {
   text-align: justify;
 }
 
+// 404 page
 .notfound {
   position: relative;
   text-align: center;
@@ -174,6 +126,7 @@ a div p {
   }
 }
 
+// Footnotes
 .footnote-definition {
   sup {
     top: -0.2.5em;
