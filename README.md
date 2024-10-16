@@ -5,20 +5,17 @@
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/mabuya" />
   <img src="https://img.shields.io/website/https/mabuya.vercel.app.svg" />
-</div>
-<br />
 
-<div align="center">
+<br />
 
 [Mabuya](https://mabuya.vercel.app/) is a minimal [Zola](https://www.getzola.org) theme for building light and SEO-ready blogs.  
 Put your work front and center with Mabuya as the base of your project.
 
 <a href="https://mabuya.vercel.app/">
 <img src="https://img.shields.io/badge/Check out the Demo-F0E68C?style=for-the-badge&link=https://semanticdata.github.io/nullboard/" alt="demo" height="32px"; /></a>
-</div>
 
 <br />
-<div align="center">
+
 <img alt="Mabuya screenshot" src="screenshot.png" />
 </div>
 
@@ -28,7 +25,14 @@ While searching for themes, I came across [Zola Tale](https://github.com/aaranxu
 
 The name **Mabuya** comes from the [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), a possibly extinct[^1] species of skink endemic to the Dominican Republic, my home country.
 
-## ✨ Features and Improvements
+## ✨ Features
+
+- ✅ Simple Blog
+- ✅ Pagination
+- ✅ Tags
+- ✅ Back-to-Top button
+
+## 📈 Improvements
 
 While working on the theme, I have added new functionality and made many quality of life improvements. Here's a short list:
 
@@ -48,25 +52,25 @@ While working on the theme, I have added new functionality and made many quality
 
 Before using the theme, you need to install [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ v0.18.0.
 
-### 1. Clone the repo
+1. Clone the repository.
 
-```sh
+```shell
 git clone git@github.com:semanticdata/mabuya.git
 ```
 
-### 2. Change directory into clone
+2. Change directory into new clone.
 
-```sh
+```shell
 cd mabuya
 ```
 
-### 3. Serve the site locally
+3. Serve the site locally.
 
-```sh
+```shell
 zola serve
 ```
 
-For more detailed instructions, visit the [Documentation](https://www.getzola.org/documentation/themes/installing-and-using-themes/) page about installing and using themes.
+For more detailed instructions, visit the [documentation](https://www.getzola.org/documentation/themes/installing-and-using-themes/) page about installing and using themes.
 
 ## 🎨 Customization
 

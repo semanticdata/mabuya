@@ -3,7 +3,7 @@ title = "Mabuya"
 description = "Mabuya is a minimal Zola theme for building light and SEO-ready blogs. Put your work front and center with Mabuya as the base of your project."
 
 compile_sass = true
-generate_feed = true
+# generate_feed = true
 minify_html = true
 build_search_index = false
 taxonomies = [{ name = "tags", feed = true }]
