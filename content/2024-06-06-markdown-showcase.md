@@ -1,16 +1,14 @@
 ---
 title: Markdown Showcase
-description: "This is intended as a quick reference and showcase of Markdown's synthax."
-date: 2023-06-06
+description: "This is intended as a quick reference and showcase of Markdown's synthax. Lorem markdownum auras canities nostros caede Nilus est sacer atque Telephon totoque. Modo dedit facies et se muneris egesto."
+date: 2024-06-06
 taxonomies:
   tags: [placeholder, markdown, reference]
 ---
 
 # Heading Level 1
 
-This is intended as a quick reference and showcase of Markdown's synthax.
-
-Lorem ipsum dolor **sit amet**, consectetur adipiscing elit. Sed nec **risus elementum**, tempor tortor non, bibendum libero. Suspendisse potenti. Vivamus dapibus _tortor neque_, sed aliquet lacus _elementum nec_. Morbi vel ligula vitae leo placerat sollicitudin quis at eros. Pellentesque tristique mi a tortor auctor, sit amet elementum augue pulvinar. Donec non orci in ~~ipsum mollis~~ tempor. Integer libero est, pharetra facilisis quis.
+This is intended as a quick reference of Markdown's synthax and a showcase of the Minimal theme style. Lorem ipsum dolor **sit amet**, consectetur adipiscing elit. Sed nec **risus elementum**, tempor tortor non, bibendum libero. Suspendisse potenti. Vivamus dapibus _tortor neque_, sed aliquet lacus _elementum nec_. Morbi vel ligula vitae leo placerat sollicitudin quis at eros. Pellentesque tristique mi a tortor auctor, sit amet elementum augue pulvinar. Donec non orci in ~~ipsum mollis~~ tempor. Integer libero est, pharetra facilisis quis.
 
 ## Heading Level 2
 
@@ -149,16 +147,10 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 ---
 
-## Tasks and Custom Todos
+## Tasks
 
 - [ ] Pending Task
 - [x] Completed Task
-- [-] Won't Do Task
-- [/] In Progress Task
-
-## Images
-
-![image](https://just-the-docs.com/assets/images/small-image.jpg)
 
 ## Other Elements — Abbr, Sub, Sup, Kbd, Mark
 
@@ -181,3 +173,9 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 ### Highlighting
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+
+## Images
+
+![image](https://just-the-docs.com/assets/images/small-image.jpg)
+
+![smelling cat](/assets/smelling-cat.webp)
