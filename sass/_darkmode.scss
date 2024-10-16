@@ -1,0 +1,40 @@
+.darkmode {
+    display: inline;
+}
+
+.darkmode > .toggle {
+    display: none;
+}
+
+.darkmode svg {
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    fill: var(--gray);
+    transition: opacity 0.1s ease;
+    cursor: pointer;
+}
+
+.darkmode .toggle:checked ~ label > #dayIcon {
+    opacity: 0;
+    display: none;
+}
+
+.darkmode .toggle:checked ~ label > #nightIcon {
+    opacity: 1;
+    filter: invert(1);
+}
+
+.darkmode .toggle:not(:checked) ~ label > #dayIcon {
+    opacity: 1;
+}
+
+.darkmode .toggle:not(:checked) ~ label > #nightIcon {
+    opacity: 0;
+    display: none;
+}
+
+.darkmode #toggle-label-light,
+.darkmode #toggle-label-dark {
+    display: inline;
+}
