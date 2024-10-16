@@ -85,7 +85,7 @@ Let us use some `inline code` and check out how it `looks`. Here's some `more`.
 
 ### Code Blocks
 
-```html
+```html,linenos
 <html>
   <head>
     <div style="background-color: #333;">
