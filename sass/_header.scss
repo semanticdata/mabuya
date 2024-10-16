@@ -38,6 +38,7 @@ header li {
     color: variables.$default-color;
     display: inline-block;
     opacity: 0.6;
+    padding: 0.25rem;
 
     &:hover,
     &:focus {
