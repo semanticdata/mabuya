@@ -19,8 +19,10 @@ header {
     @include variables.transition(all 0.2s ease-out);
     color: variables.$default-color;
 
-    h2 {
-        margin-bottom: 0.5rem;
+    @media (max-width: 600px) {
+        h2 {
+            margin-bottom: 0.5rem;
+        }
     }
 
     &:hover,
