@@ -18,46 +18,6 @@
   </label>
 </section>
 
-<style>
-  .darkmode {
-    display: inline-block;
-
-    &>.toggle {
-      display: none;
-      box-sizing: border-box;
-    }
-
-    & svg {
-      opacity: 0;
-      width: 20px;
-      height: 20px;
-      fill: var(--gray);
-      transition: opacity 0.1s ease;
-      cursor: pointer;
-    }
-
-    .toggle:checked~label {
-      &>#dayIcon {
-        opacity: 0;
-      }
-
-      &>#nightIcon {
-        opacity: 1;
-        filter: invert(1);
-      }
-    }
-
-    .toggle:not(:checked)~label {
-      &>#dayIcon {
-        opacity: 1;
-      }
-
-      &>#nightIcon {
-        opacity: 0;
-      }
-    }
-</style>
-
 <script>
   const userPref = window.matchMedia("(prefers-color-scheme: light)").matches
     ? "light"
@@ -80,10 +40,7 @@
   };
 
   window.addEventListener("DOMContentLoaded", () => {
-    // Darkmode toggle
     const toggleSwitch = document.querySelector("#darkmode-toggle");
-
-    // listen for toggle
     toggleSwitch.addEventListener("change", switchTheme, false);
 
     if (currentTheme === "dark") {
