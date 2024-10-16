@@ -4,7 +4,6 @@ about: "Something about this repo isn't working the way you expect."
 title: ''
 labels: bug
 assignees: 'semanticdata'
-
 ---
 
 **Describe the bug**

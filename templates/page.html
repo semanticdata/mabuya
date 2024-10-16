@@ -6,11 +6,9 @@
     {% elif config.extra.author -%}
     <span>Written by</span> {{ config.extra.author }}<br />
     {%- endif %}
-    <span>on&nbsp;</span
-    ><time datetime="{{ page.date }}"
-      >{{ page.date | date(format=config.extra.timeformat | default(value="%B
-      %e, %Y"))}}</time
-    >
+    <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date(format=config.extra.timeformat |
+      default(value="%B
+      %e, %Y"))}}</time>
   </section>
   <h1 class="post-title">{{ page.title }}</h1>
   <section class="post-line"></section>

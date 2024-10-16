@@ -1,8 +1,10 @@
+---
 name: Pull Request
 about: Make changes to the codebase
 title: "[Change Description]"
 labels: ''
 assignees: 'semanticdata'
+---
 
 **Describe the changes you've made**
 

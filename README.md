@@ -52,19 +52,19 @@ While working on the theme, I have added new functionality and made many quality
 
 Before using the theme, you need to install [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ v0.18.0.
 
-1. Clone the repository.
+1. Clone the repository:
 
 ```shell
 git clone git@github.com:semanticdata/mabuya.git
 ```
 
-2. Change directory into new clone.
+2. Change directory into new clone:
 
 ```shell
 cd mabuya
 ```
 
-3. Serve the site locally.
+3. Serve the site locally:
 
 ```shell
 zola serve
