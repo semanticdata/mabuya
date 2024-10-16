@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/mabuya" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/mabuya" />
   <img src="https://img.shields.io/website/https/mabuya.vercel.app.svg" />
-
 <br />
 
 [Mabuya](https://mabuya.vercel.app/) is a minimal [Zola](https://www.getzola.org) theme for building light and SEO-ready blogs.  
@@ -21,7 +20,7 @@ Put your work front and center with Mabuya as the base of your project.
 
 ## ⓘ Background
 
-While searching for themes, I came across [Zola Tale](https://github.com/aaranxu/tale-zola). Sadly, the project's last update was on Dec, 2021. Shortly after, I decided to fork the project and add my own touches to it.
+While searching for themes, I came across [Tale](https://github.com/aaranxu/tale-zola). Sadly, at the time of writing, the project's last update was on December, 2021. Shortly after, I decided to fork the project and add my own touches to it.
 
 The name **Mabuya** comes from the [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae?useskin=vector), a possibly extinct[^1] species of skink endemic to the Dominican Republic, my home country.
 
@@ -30,6 +29,7 @@ The name **Mabuya** comes from the [Mabuya hispaniolae](https://en.wikipedia.org
 - ✅ Simple Blog
 - ✅ Pagination
 - ✅ Tags
+- ✅ Dark Theme and Toggle
 - ✅ Back-to-Top button
 
 ## 📈 Improvements
@@ -39,7 +39,7 @@ While working on the theme, I have added new functionality and made many quality
 - Refactored stylesheets.
 - Added Dark theme and color theme toggle.
 - Added new footer navigation.
-- Created a custom GitHub Action to deploy Zola sites faster than any other GitHub Actions using Docker.
+- Created a custom GitHub Action to deploy Zola sites faster than any other GitHub Actions without using Docker.
 - Refined page transitions from desktop to mobile and viceversa.
 - Centralized custom variables–made it easier to customize the site's colors.
 - Addressed PR [#7](https://github.com/aaranxu/tale-zola/pull/7) fixing the pagination problem present in the original Zola theme.
@@ -50,7 +50,7 @@ While working on the theme, I have added new functionality and made many quality
 
 ## 🚀 Quick Start
 
-Before using the theme, you need to install [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ v0.18.0.
+Before using the theme, you need to install [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ v0.18.0. After which you'll need to:
 
 1. Clone the repository:
 
@@ -58,7 +58,7 @@ Before using the theme, you need to install [Zola](https://www.getzola.org/docum
 git clone git@github.com:semanticdata/mabuya.git
 ```
 
-2. Change directory into new clone:
+2. Change directory into new cloned repository:
 
 ```shell
 cd mabuya
