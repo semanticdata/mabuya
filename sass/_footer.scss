@@ -3,7 +3,8 @@
 footer {
   font-family: variables.$serif-secondary;
   padding: 1rem 0;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
 
   span {
     color: variables.$default-color;
