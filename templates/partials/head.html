@@ -11,9 +11,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='assets/apple-touch-icon.png') | safe }}" />
 
   <link rel="stylesheet" href="{{ get_url(path='main.css') | safe }}" />
-  {# <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" /> #}
 
-  {% if config.generate_feed %}
+  {% if config.generate_feeds %}
   <link type="application/atom+xml" rel="alternate"
     href="{{ get_url(path=config.feed_filename | default(value='atom.xml')) | safe }}"
     title="{{ config.title | default(value='Mabuya') }}" />
