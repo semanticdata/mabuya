@@ -16,7 +16,7 @@ Put your work front and center with Mabuya as the base of your project.
 <br />
 <br />
 
-<img alt="screenshot" src="screenshot.png" />
+<img alt="screenshot" src="./screenshot.png" />
 </div>
 
 ## ⓘ Background
@@ -51,7 +51,7 @@ While working on the theme, I have added new functionality and made many quality
 
 <div align=center>
 
-| ![PageSpeed Insights Results](pagespeed-results.svg) |
+| ![PageSpeed Insights Results](./pagespeed-results.svg) |
 | --- |
 
 </div>
@@ -62,19 +62,19 @@ Before using the theme, you need to install [Zola](https://www.getzola.org/docum
 
 1. Clone the repository:
 
-```shell
+```bash
 git clone git@github.com:semanticdata/mabuya.git
 ```
 
 2. Change directory into new cloned repository:
 
-```shell
+```bash
 cd mabuya
 ```
 
 3. Serve the site locally:
 
-```shell
+```bash
 zola serve
 ```
 
@@ -140,6 +140,6 @@ The icons used throughout the site are kindly provided by [UXWing](https://uxwin
 
 ## ©️ License
 
-Source code in this repository is available under the [MIT License](LICENSE).
+Source code in this repository is available under the [MIT License](./LICENSE).
 
 [^1]: *Mabuya hispaniolae*'s conservation status is *Critically endangered, possibly extinct*.  
